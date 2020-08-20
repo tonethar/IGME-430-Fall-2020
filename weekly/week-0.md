@@ -11,6 +11,8 @@
     - How to authenticate users
     - How to author distributed systems [(Redis)](https://redis.io/)
     - In this course, we'll be doing the front and back-end programming in the SAME language (JavaScript). This can be a little confusing for people because they have to keep straight in their head the following - "Is this JS code running on the *front-end* (the browser) or the *back-end* (a Node.js server)"
+      - JS in the web browser has the usual limitations (no access to hard-drive, no database, no native threads etc)
+      - JS running on a Node.js server however has full access to underlying hardware - so much more powerful!
   - #2 - Work with a modern MVVM framework (React, which is similar to Vue.js)
   - #3 - Modern Software Development Concepts (GitHub instead of FTP for posting code, code validation via linting, build/continuous integration tools such as Webpack & CircleCI)
 
