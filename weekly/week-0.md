@@ -60,8 +60,20 @@
  ## V. Week-0 Assignment
 
 - *Review of basic npm & node* is due next Wednesday night - see myCourses dropbox for instructions - here are the video links:
-  - [Node Demo - Intro to node & npm - 1 (09:45)](https://video.rit.edu/Watch/430-intro-node-npm-1)
-  - [Node Demo - Intro to node & npm - 2 (06:04)](https://video.rit.edu/Watch/430-intro-node-npm-2)
+  - [Node Demo - Intro to node & npm - 1 (09:45)](https://video.rit.edu/Watch/430-intro-node-npm-1):
+  - You need to know these Unix file management commands - these are covered in the video:
+    - `cd xxx` - *change directory in xxx folder*
+    - `cd ..` - *change directory "up" a level*
+    - `pwd` - *print working directory* - you always have a "current working directory" when executing commands
+    - `ls` - *list contents of current directory*
+   - And for command line Node.js:
+     - `npm init -y`
+     - `npm test`
+     - `npm start`
+     - `npm -v`
+     - `node -v`
+- [Node Demo - Intro to node & npm - 2 (06:04)](https://video.rit.edu/Watch/430-intro-node-npm-2)
+  
 - ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
  
 
