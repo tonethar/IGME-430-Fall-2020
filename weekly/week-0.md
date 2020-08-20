@@ -3,6 +3,10 @@
 ## I. Overview
 - Welcome to the course!
 - Make sure you read the syllabus linked from the main landing page here --> [README.md](../README.md) 
+- This is not an easy class:
+  - so start assignments early
+  - ask for help when you need it
+  - use the Discord - it was very helpful for many students last semester
 - What is this course about?
   - Up until now, you've been programming mostly on the *client-side* (HTML/CSS/JavaScript), and then FTPing your pages up to banjo, which is a basic HTTP web server
   - #1 - In this course we will learn how to write code and create our own *web servers* - thus we will be doing *full-stack* development (both front-end AND back-end)
