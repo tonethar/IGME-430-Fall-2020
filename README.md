@@ -5,7 +5,7 @@
 - Course syllabus is here: https://people.rit.edu/arwigm/430/ - there are a few changes for our section:
   - Office hours: initially by appointment - but once we start having substantial assignments due I will have scheduled hours for drop-in. During the week I will respond to emails fairly quickly
   - Grading (slightly different rubric):
-    - Attendance/Paricipation (10%)
+    - Attendance/Paricipation/Engagement (10%)
     - Quizzes (10%)
     - HW (40%)
     - Projects (40%)
