@@ -2,7 +2,16 @@
 
 ## I. Overview
 - Welcome to the course!
-- Make sure you read the main handing page here --> [README.md](../README.md) 
+- Make sure you read the syllabus linked from the main landing page here --> [README.md](../README.md) 
+- What is this course about?
+  - Up until now, you've been programming mostly on the *client-side* (HTML/CSS/JavaScript), and then FTPing your pages up to banjo, which is a basic HTTP web server
+  - #1 - In this course we will learn how to write code and create our own *web servers* - thus we will be doing *full-stack* development (both front-end AND back-end)
+    - How to work with the HTTP protocol
+    - How to retrieve/pass/store data on our customized web server
+    - How to authenticate users
+    - How to author distributed systems ([Redis](https://redis.io/)
+  - #2 - Work with a modern MVVM framework (React, which is similar to Vue.js)
+  - #3 - Modern Software Development Concepts (GitHub instead of FTP for posting code, code validation via linting, build tools)
 
 ## II. Example Projects
 
