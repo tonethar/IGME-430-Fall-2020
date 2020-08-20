@@ -9,7 +9,7 @@
     - How to work with the HTTP protocol
     - How to retrieve/pass/store data on our customized web server
     - How to authenticate users
-    - How to author distributed systems ([Redis](https://redis.io/)
+    - How to author distributed systems [(Redis)](https://redis.io/)
   - #2 - Work with a modern MVVM framework (React, which is similar to Vue.js)
   - #3 - Modern Software Development Concepts (GitHub instead of FTP for posting code, code validation via linting, build tools)
 
