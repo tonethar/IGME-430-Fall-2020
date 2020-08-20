@@ -17,6 +17,7 @@
   - #3 - Modern Software Development Concepts (GitHub instead of FTP for posting code, code validation via linting, build/continuous integration tools such as Webpack & CircleCI)
 
 ## II. Example Projects
+- next week!
 
 ## III. Communication
 
