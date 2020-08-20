@@ -1,4 +1,4 @@
-# Week 0 (8/20/20)
+# Week - 0 (8/20/20)
 
 ## I. Overview
 - Welcome to the course!
@@ -46,13 +46,9 @@
    - Discord Invite & Introduction & Logistics Survey
      - if I have to ask multiple times, it will hurt your participation grade
    - There will be several (graded) Discord discussion threads during the semester
-   
-## IV. Week-0 Assignment
+  
 
-- *Review of basic npm & node* is due next Wednesday night - see myCourses dropbox for instructions/video links
-- This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
-
-## V. Week-0 Introductions ("Do I have to?" - YES!)
+## IV. Week-0 Introductions ("Do I have to?" - YES!)
 - Introductions - we'll do this alphabetically - so be ready:
  - 1) name/major/year
  - 2) where you are physically located right now
@@ -60,4 +56,13 @@
  - 4) something interesting you did this summer
  - "Next!"
  
+ 
+ ## V. Week-0 Assignment
+
+- *Review of basic npm & node* is due next Wednesday night - see myCourses dropbox for instructions - here are the video links:
+  - [Node Demo - Intro to node & npm - 1 (09:45)](https://video.rit.edu/Watch/430-intro-node-npm-1)
+  - [Node Demo - Intro to node & npm - 2 (06:04)](https://video.rit.edu/Watch/430-intro-node-npm-2)
+- ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
+ 
+
  ## VI. Questions?
