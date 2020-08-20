@@ -45,6 +45,7 @@
 ## IV. Week-0 Assignment
 
 - *Review of basic npm & node* is due next Wednesday night - see myCourses dropbox for instructions/video links
+- This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
 
 ## V. Week-0 Introductions ("Do I have to?" - YES!)
 - Introductions - we'll do this alphabetically - so be ready:
