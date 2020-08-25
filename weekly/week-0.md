@@ -91,7 +91,7 @@ console.log(shortid.generate());
   - it should work now
   - now take a look in the **package.json** file - you will see that a `dependencies` key has been added
   
-- before you submit this assignment to mycourses, you will need to delete the `node_modules` folder (to keep the file size down)
+- before you submit this assignment to myCourses, you will need to delete the `node_modules` folder (to keep the file size down)
 - so how do you re-download the files when you want to work on the project later?
   - ***EASY!*** - `npm install` (or `npm i`)
   
@@ -99,4 +99,7 @@ console.log(shortid.generate());
 - ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early!
  
 
- ## VI. Questions?
+ ## VI. Resources?
+ 
+ - See *Node Intro* slides in myCourses
+ - Any Questions?
