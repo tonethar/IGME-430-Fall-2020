@@ -81,18 +81,18 @@ const shortid = require('shortid');
 console.log(shortid.generate());
 ```
   
-  - on the command line:
-    - `cd` to the folder
-    - `npm start`
-  - ***BOOM*** - **`Error: Cannot find module 'shortid'`**
-  - it didn't work because you need to *install* the `shortid` package first (i.e. download the files, which will be place in a `node_modules` folder) 
+- on the command line:
+  - `cd` to the folder
+  - `npm start`
+- ***BOOM*** - **`Error: Cannot find module 'shortid'`**
+- it didn't work because you need to *install* the `shortid` package first (i.e. download the files, which will be place in a `node_modules` folder) 
   - `npm install shortid` (or `npm i shortid`)
   - `npm start`
   - it should work now
   - now take a look in the **package.json** file - you will see that a `dependencies` key has been added
   
-  - before you submit this assignment to mycourses, you will need to delete the `node_modules` folder (to keep the file size down)
-  - so how do you re-download the files when you want to work on the project later?
+- before you submit this assignment to mycourses, you will need to delete the `node_modules` folder (to keep the file size down)
+- so how do you re-download the files when you want to work on the project later?
   - ***EASY!*** - `npm install` (or `npm i`)
   
   
