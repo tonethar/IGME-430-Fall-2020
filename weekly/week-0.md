@@ -67,11 +67,11 @@
   console.log("Hello!");
   
   function hello2(){
-    console.log("Hello Hello");
+    console.log("Hello Hello!!");
   }
   
   const hello3 = () =>{
-    console.log("Hello Hello Hello");
+    console.log("Hello Hello Hello!!!");
   };
   
   hello2();
