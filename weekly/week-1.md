@@ -14,7 +14,7 @@
   - can run code for us in PHP, Python, JavaScript, Java and so on
   - has many "add-ons" (databases such as Mongo, authentication systems etc...)
   - *scalable* - it does *load balancing* with "Dynos"
-- These slides are re-capped, in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+- ***VIDEO*** - These slides are re-capped, in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
 
 ## III. GitHub & Version Control
 
@@ -25,5 +25,18 @@
   - Heroku will then update and relaunch our app
   - we can set up this "connection" up in the Heroku control panel
 - Demo:
-  - 
-- These slides are re-capped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+  - make a test repository
+  - grab clone URL
+  - launch PowerShell/GitBash/Terminal
+  - create folder on local drive and cd into it
+  - `git clone <url>`
+  - create text file in folder
+  - `git status` (untracked files present)
+  - `git add` (file name, * - doesn't push .files, or .) - they are now in staging areas
+  - `git commit -m "message"` (moves from staging area to local repo)
+  - `git status`
+  - `git push` (now that it's in the local repo, you can push)
+  - NOTE: one-liner `git add commit` - https://stackoverflow.com/questions/4298960/git-add-and-commit-in-one-command/39831427
+  - now modify file on GitHub and commit it
+  - type `git pull` to see changes
+- ***VIDEO*** - These slides are re-capped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
