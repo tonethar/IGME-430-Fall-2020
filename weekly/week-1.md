@@ -40,5 +40,5 @@
   - NOTE: one-liner `git add commit` - https://stackoverflow.com/questions/4298960/git-add-and-commit-in-one-command/39831427
   - now modify file on GitHub and commit it
   - type `git pull` to download changes
-  - ***OPTIONAL***: type `git remote update` followed by `git diff master..origin/master` to just see the differences between the local and remote repository
+  - ***OPTIONAL***: type `git remote update` or `git fetch` followed by `git diff master..origin/master` to just see the differences between the local and remote repository
 - ***VIDEO*** - These slides are recapped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
