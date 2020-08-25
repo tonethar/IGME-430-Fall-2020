@@ -28,8 +28,9 @@
   - make a test repository
   - grab clone URL
   - launch PowerShell/GitBash/Terminal
-  - create folder on local drive and cd into it
+  - create folder on local drive and `cd` into it
   - `git clone <url>`
+  - `cd` into repository folder
   - create text file in folder
   - `git status` (untracked files present)
   - `git add` (file name, * - doesn't push .files, or .) - they are now in staging areas
