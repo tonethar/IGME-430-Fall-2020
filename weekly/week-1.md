@@ -19,3 +19,8 @@
 ## III. GitHub & Version Control
 
 - These slides are re-capped in the starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+- Workflow:
+  - we use a local git repository, and push our changes to GitHub when we want
+  - GitHub can be set up to then push our code to Heroku
+  - Heroku will then update and relaunch our app
+  - we can set up this "connection" up in the Heroku control panel
