@@ -89,6 +89,7 @@ console.log(shortid.generate());
   - `npm install shortid`
   - `npm start`
   - it should work now
+  - now take a look in the **package.json** file - you will see that a `dependencies` key has been added
   
   
 - ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early!
