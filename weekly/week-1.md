@@ -10,8 +10,12 @@
 ## II. Platform as a Service
 
 - See ***Cloud Servers & Version Control*** slides in myCourses
+- Heroku - *platform as service*:
+  - can run code for us in PHP, Python, JavaScript and so on
+  - has many "add-ons" (databases such as Mongo, authentication systems etc...)
+  - does *load balancing* with "Dynos"
 - These slides are re-capped in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
 
 ## III. GitHub & Version Control
 
--
+- These slides are re-capped in the starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
