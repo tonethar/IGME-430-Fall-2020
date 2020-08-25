@@ -24,4 +24,6 @@
   - GitHub can be set up to then push our code to Heroku
   - Heroku will then update and relaunch our app
   - we can set up this "connection" up in the Heroku control panel
+- Demo:
+  - 
 - These slides are re-capped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
