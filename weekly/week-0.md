@@ -84,11 +84,13 @@ console.log(shortid.generate());
   - on the command line:
     - `cd` to the folder
     - `npm start`
-  - ***BOOM*** - didn't work
+  - ***BOOM*** - didn't work - you need to *install* the `shortid` package first (i.e. download the files, which will be place in a `node_modules` folder) 
   - `npm install shortid`
+  - `npm start`
+  - it should work now
   
   
-- ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
+- ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early!
  
 
  ## VI. Questions?
