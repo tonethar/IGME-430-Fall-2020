@@ -14,7 +14,7 @@
   - can run code for us in PHP, Python, JavaScript, Java and so on
   - has many "add-ons" (databases such as Mongo, authentication systems etc...)
   - *scalable* - it does *load balancing* with "Dynos"
-- These slides are re-capped in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+- These slides are re-capped, in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
 
 ## III. GitHub & Version Control
 
@@ -24,4 +24,4 @@
   - GitHub can be set up to then push our code to Heroku
   - Heroku will then update and relaunch our app
   - we can set up this "connection" up in the Heroku control panel
-- These slides are re-capped in the starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+- These slides are re-capped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
