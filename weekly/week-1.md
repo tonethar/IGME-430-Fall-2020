@@ -39,5 +39,6 @@
   - `git push` (now that it's in the local repo, you can push)
   - NOTE: one-liner `git add commit` - https://stackoverflow.com/questions/4298960/git-add-and-commit-in-one-command/39831427
   - now modify file on GitHub and commit it
-  - type `git pull` to see changes
+  - type `git pull` to download changes
+  - type `git remote update` followed by `git diff master..origin/master` to just see the differences between the local and remote repository
 - ***VIDEO*** - These slides are re-capped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
