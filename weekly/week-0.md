@@ -86,10 +86,14 @@ console.log(shortid.generate());
     - `npm start`
   - ***BOOM*** - **`Error: Cannot find module 'shortid'`**
   - it didn't work because you need to *install* the `shortid` package first (i.e. download the files, which will be place in a `node_modules` folder) 
-  - `npm install shortid`
+  - `npm install shortid` (or `npm i shortid`)
   - `npm start`
   - it should work now
   - now take a look in the **package.json** file - you will see that a `dependencies` key has been added
+  
+- before you submit this assignment to mycourses, you will need to delete the `node_modules` folder (to keep the file size down)
+- so how do you re-doanload the files when you want to work on the project later?
+- ***EASY!*** - `npm install` (or `npm i`)
   
   
 - ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early!
