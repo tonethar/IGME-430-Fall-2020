@@ -60,7 +60,24 @@
  ## V. Week-0 Assignment
 
 - *Review of basic npm & node* is due next Wednesday night (8/26/2020) - see myCourses dropbox for instructions - here are the video links:
-  - [Node Demo - Intro to node & npm - 1 (09:45)](https://video.rit.edu/Watch/430-intro-node-npm-1):
+  - [Node Demo - Intro to node & npm - 1 (09:45)](https://video.rit.edu/Watch/430-intro-node-npm-1)
+  - Here is our exciting code:
+  
+  ```js
+  console.log("Hello!");
+  
+  function hello2(){
+    console.log("Hello Hello");
+  }
+  
+  const hello3 = () =>{
+    console.log("Hello Hello Hello");
+  };
+  
+  hello2();
+  hello3();
+  ```
+  
   - You need to know these Unix file management commands - these are covered in the video:
     - `cd xxx` - *change directory in xxx folder*
     - `cd ..` - *change directory "up" a level*
