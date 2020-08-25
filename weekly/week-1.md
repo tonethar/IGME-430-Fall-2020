@@ -3,13 +3,15 @@
 ## I. Overview
 
 - Last time we got familiar with running `node` and `npm` on the command line, and installing packages (i.e. "libraries")
-- Today we are going to look at some of the other tools we'll be using in this course
-- See the 
+- Today we are going to look at some of the other tools we'll be using in this course:
+  - Heroku is a *platform as service* - https://www.heroku.com/platform
+  - We will be deploying our apps to Heroku using Git and GitHub
 
-
-
-
-## XXX. Resources
+## II. Platform as a Service
 
 - See ***Cloud Servers & Version Control*** slides in myCourses
-- 
+- These slides are re-capped in the first 9 minutes of this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+
+## III. GitHub & Version Control
+
+-
