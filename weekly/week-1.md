@@ -42,3 +42,8 @@
   - type `git pull` to download changes
   - ***OPTIONAL***: type `git remote update` or `git fetch` followed by `git diff master..origin/master` to just see the differences between the local and remote repository
 - ***VIDEO*** - These slides are recapped, starting 9 minutes into this video: https://www.youtube.com/watch?v=GL_BfMltuD4
+
+# IV. Resources
+
+- https://overapi.com/git
+- https://www.git-tower.com/blog/git-cheat-sheet
