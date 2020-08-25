@@ -72,7 +72,21 @@
      - `npm start`
      - `npm -v`
      - `node -v`
-- [Node Demo - Intro to node & npm - 2 (06:04)](https://video.rit.edu/Watch/430-intro-node-npm-2)
+- [Node Demo - Intro to node & npm - 2 (06:04)](https://video.rit.edu/Watch/430-intro-node-npm-2):
+  - add a npm package to the project - https://www.npmjs.com/package/shortid
+  - here's the code to use the package:
+  
+```js
+const shortid = require('shortid');
+console.log(shortid.generate());
+```
+  
+  - on the command line:
+    - `cd` to the folder
+    - `npm start`
+  - ***BOOM*** - didn't work
+  - `npm install shortid`
+  
   
 - ***IMPORTANT:*** This first assignment is really easy and won't take too long, later assignments are much more involved, so don't procrastinate and start your assignments early
  
