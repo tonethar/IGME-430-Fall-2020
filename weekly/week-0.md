@@ -121,6 +121,8 @@ console.log(shortid.generate());
  - See *Node Intro* slides in myCourses
  - Any Questions?
  
+ <hr><hr>
+ 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
 |   :-\  |  [**IGME-430 Home**](../) | [**week-1.md**](week-01B-notes.md)
