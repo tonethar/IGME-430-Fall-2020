@@ -63,4 +63,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-0.md**](week-0.md)     |  [**IGME-430 Home**](../) | **week-2.md**
+| [**week-0.md**](week-0.md)     |  [**IGME-430 Home**](../README.md) | **week-2.md**
