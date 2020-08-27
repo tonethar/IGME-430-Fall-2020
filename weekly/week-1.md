@@ -47,3 +47,15 @@
 
 - https://overapi.com/git
 - https://www.git-tower.com/blog/git-cheat-sheet
+
+# V - Thursday 8/27/20
+- TODAY'S GOAL: Make sure that everyone is comfortable with node/npm (i.e. and has it working on their own computer), has Git working on their local computer, and has set up a Heroku account
+- any questions on *HW-Review of basic npm & node* OR *Simple GitHub HW* ?
+- the next HW due is *Git & Heroku Setup*:
+  - if you have already completed it, after I check you off, you can bail for today!
+  - if you have not yet completed it, you must stay logged in on Zoom and work on it. Let me know when you are done and I will check you off
+- Next Wednesday night the *Simple HTTP* HW is due:
+  - this HW has you creating and running a simple web server, and then pushing it to Heroku
+  - we will review the necessary concepts on Tuesday's (2A) class
+  - if you would like to get a head start on this HW (recommended) then go ahead and watch the pre-recorded lecture on this topic here: [Rich Media 2 - Week 2.1 - First Node Demo](https://www.youtube.com/watch?v=xksZCkshgQM)
+
