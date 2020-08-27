@@ -50,7 +50,6 @@
 
 # V. - Thursday 8/27/20
 - Any questions on *HW-Review of basic npm & node* OR *Simple GitHub HW* ?
-- **WATCH** - [YouTube - Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w)
 - This lecture will be recorded
 - **TODAY'S GOAL** - Make sure that everyone is comfortable with node/npm (i.e. and has it working on their own computer), has Git working on their local computer, and has set up a Heroku account
 - the next HW due is *Git & Heroku Setup*:
@@ -60,6 +59,7 @@
   - this HW has you creating and running a simple web server, and then pushing it to GitHub, and deploying it to Heroku/CircleCI
   - we will review the necessary concepts on Tuesday's (2A) class
   - if you would like to get a head start on this HW (recommended) then go ahead and watch the pre-recorded lecture on this topic here: [YouTube - Week 2.1 - First Node Demo](https://www.youtube.com/watch?v=xksZCkshgQM) (54:18)
+ - **OTHER HW - BEFORE OUR NEXT CLASS - WATCH** - [YouTube - Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w) - it's a 30 minjute vide, but just watch the first 25 minutes
 
 <hr><hr>
 
