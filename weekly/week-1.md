@@ -59,3 +59,8 @@
   - we will review the necessary concepts on Tuesday's (2A) class
   - if you would like to get a head start on this HW (recommended) then go ahead and watch the pre-recorded lecture on this topic here: [YouTube - Week 2.1 - First Node Demo](https://www.youtube.com/watch?v=xksZCkshgQM) (54:18)
 
+<hr><hr>
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**week-0.md**](week-0.md)     |  [**IGME-430 Home**](../) | **week-2.md**
