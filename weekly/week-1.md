@@ -59,7 +59,7 @@
   - this HW has you creating and running a simple web server, and then pushing it to GitHub, and deploying it to Heroku/CircleCI
   - we will review the necessary concepts on Tuesday's (2A) class
   - if you would like to get a head start on this HW (recommended) then go ahead and watch the pre-recorded lecture on this topic here: [YouTube - Week 2.1 - First Node Demo](https://www.youtube.com/watch?v=xksZCkshgQM) (54:18)
- - **OTHER HW - BEFORE OUR NEXT CLASS - WATCH** - [YouTube - Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w) - it's a 30 minute vide, but just watch the first 25 minutes
+ - **OTHER HW - BEFORE OUR NEXT CLASS - WATCH** - [YouTube - Predicting the Future of the Web Development (2020 and 2025)](https://www.youtube.com/watch?v=24tQRwIRP_w) - it's a 30 minute video, and you need to watch the first 25 minutes of it. We will talk about it at the beginning of next class
 
 <hr><hr>
 
