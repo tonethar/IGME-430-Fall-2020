@@ -125,4 +125,4 @@ console.log(shortid.generate());
  
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-|   :-\  |  [**IGME-430 Home**](../) | [**week-1.md**](week-01B-notes.md)
+|   :-\  |  [**IGME-430 Home**](../) | [**week-1.md**](week-1.md)
