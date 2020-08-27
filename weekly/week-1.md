@@ -48,7 +48,7 @@
 - https://overapi.com/git
 - https://www.git-tower.com/blog/git-cheat-sheet
 
-# V - Thursday 8/27/20
+# V. - Thursday 8/27/20
 - TODAY'S GOAL: Make sure that everyone is comfortable with node/npm (i.e. and has it working on their own computer), has Git working on their local computer, and has set up a Heroku account
 - any questions on *HW-Review of basic npm & node* OR *Simple GitHub HW* ?
 - the next HW due is *Git & Heroku Setup*:
