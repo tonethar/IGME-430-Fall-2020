@@ -31,7 +31,9 @@
         - https://www.npmjs.com/package/eslint-config-airbnb-base
       - Integrate with CircleCI
       - Create an external module
-        - use CommonJS - i.e. `require()` and `module.exports` - https://flaviocopes.com/commonjs/ (this is a "node only" thing, and what the exercises will use)
+        - use CommonJS - i.e. `require()` and `module.exports:
+          - https://flaviocopes.com/commonjs/ - this is a "node only" thing, and what the exercises will use
+          - also demo the use of ES6 "shorthand" object notation/initialization
         - use ES6 modules i.e. `import` and `export` (like we did in 330)
   
   
