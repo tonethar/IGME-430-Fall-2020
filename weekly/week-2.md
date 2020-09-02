@@ -3,7 +3,7 @@
 ## I. Tuesday 9/01/20
 
 - [Joke API HW](https://github.com/tonethar/IGME-430-Shared/blob/master/notes/HW-node-simple-web-api.md)
-  - Create a node API project from scratch, and deployed it to GitHub & Heroku
+  - Create a node API project *from scratch*, with no "start code", and deploy it to GitHub & Heroku
   - Learn how to use nodemon
 
 
