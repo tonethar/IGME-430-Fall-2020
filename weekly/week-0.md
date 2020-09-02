@@ -1,4 +1,4 @@
-# Week - 0 (8/20/20)
+# Week-0 (8/20/20)
 
 ## I. Overview
 - Welcome to the course!
