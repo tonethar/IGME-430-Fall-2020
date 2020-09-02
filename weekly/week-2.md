@@ -9,36 +9,36 @@
 
 ## II. Thursday 9/03/20
 1. Continue with Joke API example:
-  - Discuss [HTTP Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-    - Request phase (when the client initiates a connection):
-      - [HTTP Request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) (ex. `GET`, `POST`, `PUT`)
-      - Request url
-      - [HTTP Request headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) (ex. `user-agent`, `host`, `accept`)
-      - (Look at the `XHR` code in **joke-client.html** to see some of this)
-    - Response phase:
-      - [HTTP Status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) (ex. 200)
-      - [HTTP Response headers](https://developer.mozilla.org/en-US/docs/Glossary/Response_header) (ex. `content-type`, `Access-Control-Allow-Origin`)
-      - Content
-  - In this HW we created BOTH the *client* AND the *server*:
-    - Request Phase: the `XHR` code in **joke-client.html**
-    - Response Phase: what we did in Nodejs and **index.js**, using the [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse) class
-  - New stuff:
-    - Debugging on Heroku 
-    - Add testing with ESLint:
-      - https://eslint.org
-      - https://eslint.org/docs/rules/
-      - https://www.npmjs.com/package/eslint-config-airbnb-base
-    - Integrate with CircleCI
-    - Create an external module
-      - use CommonJS - i.e. `require()` and `module.exports` - https://flaviocopes.com/commonjs/ (this is a "node only" thing, and what the exercises will use)
-      - use ES6 modules i.e. `import` and `export` (like we did in 330)
+    - Discuss [HTTP Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+      - Request phase (when the client initiates a connection):
+        - [HTTP Request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) (ex. `GET`, `POST`, `PUT`)
+        - Request url
+        - [HTTP Request headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header) (ex. `user-agent`, `host`, `accept`)
+        - (Look at the `XHR` code in **joke-client.html** to see some of this)
+      - Response phase:
+        - [HTTP Status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) (ex. 200)
+        - [HTTP Response headers](https://developer.mozilla.org/en-US/docs/Glossary/Response_header) (ex. `content-type`, `Access-Control-Allow-Origin`)
+        - Content
+    - In this HW we created BOTH the *client* AND the *server*:
+      - Request Phase: the `XHR` code in **joke-client.html**
+      - Response Phase: what we did in Nodejs and **index.js**, using the [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse) class
+    - New stuff:
+      - Debugging on Heroku 
+      - Add testing with ESLint:
+        - https://eslint.org
+        - https://eslint.org/docs/rules/
+        - https://www.npmjs.com/package/eslint-config-airbnb-base
+      - Integrate with CircleCI
+      - Create an external module
+        - use CommonJS - i.e. `require()` and `module.exports` - https://flaviocopes.com/commonjs/ (this is a "node only" thing, and what the exercises will use)
+        - use ES6 modules i.e. `import` and `export` (like we did in 330)
   
   
 2. Simple HTTP HW - see Week-1 content section of myCourses
-  - [Port](https://en.wikipedia.org/wiki/Port_(computer_networking))
-  - [List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-  - [Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml)
-  - other questions?
+    - [Port](https://en.wikipedia.org/wiki/Port_(computer_networking))
+    - [List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+    - [Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml)
+    - other questions?
 
 <hr><hr>
 
