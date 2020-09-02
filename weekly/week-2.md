@@ -24,6 +24,7 @@
       - Response Phase: what we did in Nodejs and **index.js**, using the [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse) class
     - New stuff:
       - Debugging on Heroku 
+      - `git clone` our repository again (will then need to `npm install`)
       - Add testing with ESLint:
         - https://eslint.org
         - https://eslint.org/docs/rules/
