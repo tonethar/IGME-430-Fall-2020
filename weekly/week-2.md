@@ -46,7 +46,9 @@
           - https://nodejs.org/en/knowledge/getting-started/what-is-require/
           - https://flaviocopes.com/commonjs/
           - also demo the use of ES6 "shorthand" object notation/initialization
-        - use ES6 modules i.e. `import` and `export` (like we did in 330)
+        - use ES6 modules i.e. `import` and `export` (like we did in 330):
+          - not in the LTS version - still experimental!
+          - `node --experimental-modules ./src/index.mjs`
   
   
 2. Simple HTTP HW - see Week-1 content section of myCourses
