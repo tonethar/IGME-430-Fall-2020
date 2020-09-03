@@ -26,6 +26,10 @@
       - Debugging on Heroku 
       - `git clone` our repository again (will then need to `npm install`)
       - Add testing with ESLint:
+        - read https://en.wikipedia.org/wiki/Lint_%28software%29
+         - will linting catch *syntax errors*?
+         - will linting catch *questionable coding practices* (like objects with duplicate keys or unused variables)?
+         - will linting catch *logic errors*?
         - https://eslint.org
         - https://eslint.org/docs/rules/
         - https://www.npmjs.com/package/eslint-config-airbnb-base
@@ -33,6 +37,8 @@
           - `npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import` (or just `npm install --save-dev eslint`)
           - for **package.json** - `"pretest": "eslint ./src --fix", "test": "echo \"Tests complete\""`
           - `eslint --init`
+          - `npm run test`
+          - now let's fix the issues, and edit **.eslintrc**
       - Integrate with CircleCI
       - Create an external module
         - use CommonJS - i.e. `require()` and `module.exports`:
