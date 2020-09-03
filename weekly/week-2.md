@@ -48,7 +48,11 @@
           - also demo the use of ES6 "shorthand" object notation/initialization
         - use ES6 modules i.e. `import` and `export` (like we did in 330):
           - not in the LTS version - still experimental!
-          - `node --experimental-modules ./src/index.mjs`
+          - `import * as http from 'http';`
+          - `import * as jsonHandler from './jsonResponses.js';`
+          - `export {getStaleJoke, getRandomJoke};`
+          -  for **package.json** - `"type":"module"`
+          - `node --experimental-modules ./src/index.js`
   
   
 2. Simple HTTP HW - see Week-1 content section of myCourses
