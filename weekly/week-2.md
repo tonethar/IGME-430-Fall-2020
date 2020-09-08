@@ -65,4 +65,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-1.md**](week-1.md)     |  [**IGME-430 Home**](../README.md) | **week-3.md**
+| [**week-1.md**](week-1.md)     |  [**IGME-430 Home**](../README.md) | [**week-3.md**](week-3.md)
