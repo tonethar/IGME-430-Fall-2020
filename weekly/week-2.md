@@ -34,7 +34,7 @@
         - https://eslint.org/docs/rules/
         - https://www.npmjs.com/package/eslint-config-airbnb-base
         - Demo code:
-          - `npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import` (or just `npm install --save-dev eslint`)
+          - `npm install --save-dev eslint` **OR** `npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import` 
           - for **package.json** - `"pretest": "eslint ./src --fix", "test": "echo \"Tests complete\""`
           - `eslint --init`
           - `npm run test`
