@@ -40,6 +40,8 @@
           - `npm run test`
           - now let's fix the issues, and edit **.eslintrc**
       - Integrate with CircleCI
+        - https://circleci.com/
+        - https://circleci.com/docs/2.0/getting-started/#section=getting-started
       - Create an external module
         - use CommonJS - i.e. `require()` and `module.exports`:
           - this is a "node only" thing, and what the PDF HW/Exercises will use
