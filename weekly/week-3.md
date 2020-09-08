@@ -15,7 +15,7 @@
   - https://acjvks-streaming-media-fall-20.herokuapp.com/page3
 - Here's a screenshot of the headers:
 
-![screenshot](_images/)
+![screenshot](_images/party-mp4-response-headers.png)
   
  
 
