@@ -40,7 +40,8 @@
 
 ![screenshot](_images/party-mp4-response-headers.png)
   
- 
+ - New concepts covered:
+   - URL endpoints, and sending status codes (ex `200`), content-type headers (ex. `content-type: video/mp4` ), 
 
 
 | <-- Previous Unit | Home | Next Unit -->
