@@ -114,9 +114,11 @@
     - let's see it in action - add the following to the top of `onRequest()` and then head to `localhost:3000` and check the console. We should see that we can pull out a lot of information - including info in the *query string*
       - `const parsedUrl = url.parse(request.url);`
       - `console.log(parsedUrl);`
-    - now let's get an array of the "accept" headers that the requester (client) is sending over - add this to `onRequest` - and test it both in the browser and from the **client.html** file:
+    - now let's get an array of the "accept" headers that the requester (client) is sending over - add this to `onRequest`:
       - `const acceptedTypes = request.headers.accept.split(",");`
       - `console.log(acceptedTypes);`
+    - go ahead and test it at localhost:3000
+    - now test it from the browser via the **client.html** XHR calls - you will need to change the url to `http://localhost:3000/getCats` (don't forget to change it back later)
     
     
 
