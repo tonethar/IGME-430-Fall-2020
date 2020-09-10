@@ -111,13 +111,14 @@
   - `npm start` - server should launch, even though it failed the tests (but it will do nothing at this point)
   - head to **server.js**
     - we are importing a new library - `url`
-    - let's see it in action - add the following to the top of `onRequest()` and then head to `localhost:3000`
+    - let's see it in action - add the following to the top of `onRequest()` and then head to `localhost:3000` and check the console. We should see that we can pull out a lot of information - including info in the *query string*
     
 ```js
 const parsedUrl = url.parse(request.url);
 console.log(parsedUrl);
 ```
-  
+
+  - beh
     
     
 
