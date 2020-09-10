@@ -78,15 +78,29 @@
 ### IV-A. Accept Header Example
 - see video and demo code links in myCourses
 - here's the demo code link - you can either download the ZIP or `git clone` it: https://github.com/IGM-RichMedia-at-RIT/accept-header-example
+- this demo code will make a good starter for the HW, so I recommend you clone it
 - here's the demo video link - https://www.youtube.com/watch?v=ElramkPkvaA
-- demo:
+- Walkthrough:
   - `cd` into folder
   - look over **package.json** file
   - `npm i` will download to **node_modules** all of those packages listed under the `"dependencies"` and `"dev-dependencies"` keys
-  - **node_modules** is our largest 
+  - the **node_modules** folder is huge! That's why we don't commit it to our respository (or myCourses)
   - `npm test` or `npm run test` - it will fail for now
-  - **responses.js** has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
-    - implement `getCats`
+  - look over **client.html**
+    - this file contains JavaScript that will run on the *client side* (e.g. in the user's browser)
+    - I recommend you delete the babel stuff as it is not necessary to run ES6 in 2020's browsers
+    - we'll be adding Ajax calls (e.g. `XHR`) to this later on
+    - **IMPORTANT** - **client.html** will be downloaded from our server, but will then be running in the user's browser
+    - for **client.html** to get the "cat data" it craves, it will have to send an Ajax request
+    - our server (**server.js**) will return the cata data in either JSON or customized XML (JSON will be the default)
+      - JSON = "JavaScript Object Notation"
+      - XML = "Extensible Markup Language" (i.e. a language for defining our own markup language)
+  - head to **responses.js**:
+    - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
+    - stub in `getCats` - `const getCats = (request, response, acceptedTypes)...`
+  - `npm start` - server should launch (but do nothing)
+    
+    
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
