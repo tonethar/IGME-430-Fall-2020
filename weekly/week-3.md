@@ -151,9 +151,11 @@
 - here's the demo code link - you probably want to download the ZIP (assuming you are already using the *Accept Header Demo* as HW start code: https://github.com/IGM-RichMedia-at-RIT/status-code-example - 
 - here's the demo video link - https://www.youtube.com/watch?v=vHSb7GjmMxA
 - among other things, this covers how to grab parameters from a query string, like `/?loggedin=true`
-- it uses the `query` library, and `query.parse() to do so` 
+- it uses the `query` library, and `query.parse()` to do so
     
-    
+## V. Next Week
+
+- Next week we'll talk about different kinds of requests, like `HEAD`, so that you can get *HTTP API Assignment II* working
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
