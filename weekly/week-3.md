@@ -40,9 +40,25 @@
 
 ![screenshot](_images/party-mp4-response-headers.png)
   
- - New concepts covered:
-   - URL endpoints, and sending status codes (ex `200`), content-type headers (ex. `content-type: video/mp4` ), 
 
+ - Many of the concepts were already covered in the *Simple HTTP HW*:
+   - `require()` and `module.exports`
+   - `onRequest` "request handler" for `http.createServer()`
+   - URL endpoints, and sending status codes (ex `200`), content-type headers (ex. `content-type: video/mp4` or `content-type: text/html`), sending content with `response.write()`
+ - New concepts covered:
+   - new status code for streaming: `206 Partial Content`
+   - new headers for streaming: `Content-Range` and `Accept-Ranges`
+   - helper function
+   
+## III. Notes for HTTP API Study Guide
+- See myCourses dropbox
+- This won't take you too long
+- See *Week-3/Lectures* in myCourses for helpful PDFs
+- See the first YouTube video ("Rich Media 2 - Week 3.1 Servers Video") linked under *Video Lectures/Week 3 Videos* in myCourses
+ 
+## IV. Notes for HTTP API Assignment
+- This is a *substanital* assignment
+- See 
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
