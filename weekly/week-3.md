@@ -146,10 +146,12 @@
     
 ### IV-B. Status Codes Example
 - you will also need this for the *HTTP API Assignment*
-- you will need to run through this on your own
+- ***you will need to run through this on your own***
 - see video and demo code links in myCourses
 - here's the demo code link - you probably want to download the ZIP (assuming you are already using the *Accept Header Demo* as HW start code: https://github.com/IGM-RichMedia-at-RIT/status-code-example - 
 - here's the demo video link - https://www.youtube.com/watch?v=vHSb7GjmMxA
+- among other things, this covers how to grab parameters from a query string, like `/?loggedin=true`
+- it uses the `query` library, and `query.parse() to do so` 
     
     
 
