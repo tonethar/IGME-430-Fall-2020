@@ -125,7 +125,7 @@
       - let's instead use a *dispatch table* (`urlStruct`) - a dispatch table has *references* (or pointers in other languages) to functions
       - let's set up values for `/`, `cats` and `index`
     - now in `onRequest`, how do I call these functions?
-      - let's implement it
+      - let's implement it - now test it, we should get back our index page
     
     
 
