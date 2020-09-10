@@ -127,7 +127,9 @@
     - now in `onRequest`, how do I call these functions?
       - let's implement it:
         - now test it in the browser, we should get back our index page
-        - now test the browser `XHR` - we should see logs to the node console
+        - now test the browser `XHR` by clicking the buttons - because node is now serving up the page, be sure to double-check that the XHR `url` is `/cats` - we should see logs to the node console
+  - in **responses.js**:
+    - implement `getCats`
     
     
 
