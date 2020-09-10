@@ -57,6 +57,7 @@
      - the additional files (CSS,JS, images) are requested after the client begins to parse the HTML page
      - each of these files must be individually requested by the client app 
      - the client then "assembles" the web page and displays it to the user
+     - this means that we have to create an *endpoint* for each file (HTML,CSS, media, etc) in our `onRequest` handler
    - let's check the HW to see if you got it right!
  
 <hr>
