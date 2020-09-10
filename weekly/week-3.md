@@ -78,8 +78,15 @@
 ### IV-A. Accept Header Example
 - see video and demo code links in myCourses
 - here's the demo code link - you can either download the ZIP or `git clone` it: https://github.com/IGM-RichMedia-at-RIT/accept-header-example
+- here's the demo video link - https://www.youtube.com/watch?v=ElramkPkvaA
 - demo:
-  - ds
+  - `cd` into folder
+  - look over **package.json** file
+  - `npm i` will download to **node_modules** all of those packages listed under the `"dependencies"` and `"dev-dependencies"` keys
+  - **node_modules** is our largest 
+  - `npm test` or `npm run test` - it will fail for now
+  - **responses.js** has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
+    - implement `getCats`
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
