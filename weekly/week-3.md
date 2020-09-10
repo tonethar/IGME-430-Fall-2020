@@ -102,13 +102,21 @@
       - create new XHR object
       - `open` connection
       - set the `Accept` request header
-      - set up `onload` callback function 
+      - set up `onload` callback function that points at `handleResponse`
       - `send` the request
-    
+    - add `console.log(xhr.response);` to the top of `handleResponse`
   - head to **responses.js**:
     - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
     - stub in `getCats` - `const getCats = (request, response, acceptedTypes)...`
   - `npm start` - server should launch, even though it failed the tests (but it will do nothing at this point)
+  - head to **server.js**
+    - we are importing a new library - `url`
+    - let's see it in action - add the following to the top of `onRequest()` and then head to `localhost:3000`
+    
+```js
+const parsedUrl = url.parse(request.url);
+console.log(parsedUrl);
+```
   
     
     
