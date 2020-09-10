@@ -117,8 +117,8 @@
     - now let's get an array of the "accept" headers that the requester (client) is sending over - add this to `onRequest`:
       - `const acceptedTypes = request.headers.accept.split(",");`
       - `console.log(acceptedTypes);`
-    - go ahead and test it at localhost:3000
-    - now test it from the browser via the **client.html** XHR calls - you will need to change the url to `http://localhost:3000/getCats` (don't forget to change it back later)
+    - go ahead and test it at `localhost:3000` and check the node console
+    - now test it from the browser via the **client.html** XHR calls - you will need to change the url to `http://localhost:3000/getCats` (don't forget to change it back later) - check the node console to see how the `content-type` changes depending on the button we click
     
     
 
