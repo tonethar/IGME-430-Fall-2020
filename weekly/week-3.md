@@ -69,7 +69,7 @@
 - See the first YouTube video ("Rich Media 2 - Week 3.1 Servers") linked under *Video Lectures/Week 3 Videos* in myCourses
  
 ## IV. Notes for HTTP API Assignment
-- This is a *substanital* assignment - so get started ASAP
+- This is a *substantial* assignment - so get started ASAP
 - See *Week-3/Class Examples* in myCourses for links to helpful code
 - See the 2nd and 3rd YouTube videos ("Rich Media 2 - Week 3.2 Accept Headers" & "Rich Media 2 - Week 3.3 Status Codes") linked under *Video Lectures/Week 3 Videos* in myCourses
 - 
