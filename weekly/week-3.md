@@ -42,23 +42,30 @@
   
 
  - Many of the concepts were already covered in the *Simple HTTP HW*:
-   - `require()` and `module.exports`
+   - CommonJS modules with `require()` and `module.exports`
    - `onRequest` "request handler" for `http.createServer()`
-   - URL endpoints, and sending status codes (ex `200`), content-type headers (ex. `content-type: video/mp4` or `content-type: text/html`), sending content with `response.write()`
- - New concepts covered:
+   - URL endpoints
+   - sending status codes (ex `200`) with `response.writeHead()`
+   - sending content-type headers (ex. `content-type: image/png` or `content-type: text/html`) with `response.writeHead()`
+   - sending content (text or PNG media types) with `response.write()`
+ - New concepts covered in this HW:
    - new status code for streaming: `206 Partial Content`
+   - new `content-type`s - `video/mp4` and `audio/mpeg`
    - new headers for streaming: `Content-Range` and `Accept-Ranges`
-   - helper function
+   - new methods for streaming: `fs.createReadStream()`
+   - writing a helper function
    
-## III. Notes for HTTP API Study Guide
+## III. Notes for *HTTP API Study Guide*
 - See myCourses dropbox
-- This won't take you too long
+- This won't take you too long - so get'er done
 - See *Week-3/Lectures* in myCourses for helpful PDFs
-- See the first YouTube video ("Rich Media 2 - Week 3.1 Servers Video") linked under *Video Lectures/Week 3 Videos* in myCourses
+- See the first YouTube video ("Rich Media 2 - Week 3.1 Servers") linked under *Video Lectures/Week 3 Videos* in myCourses
  
 ## IV. Notes for HTTP API Assignment
-- This is a *substanital* assignment
-- See 
+- This is a *substanital* assignment - so get started ASAP
+- See *Week-3/Class Examples* in myCourses for links to helpful code
+- See the 2nd and 3rd YouTube videos ("Rich Media 2 - Week 3.2 Accept Headers" & "Rich Media 2 - Week 3.3 Status Codes") linked under *Video Lectures/Week 3 Videos* in myCourses
+- 
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
