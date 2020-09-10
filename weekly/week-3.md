@@ -50,10 +50,17 @@
    - sending content (text or PNG media types) with `response.write()`
  - New concepts covered in this HW:
    - new status code for streaming: `206 Partial Content`
-   - new `content-type`s - `video/mp4` and `audio/mpeg`
+   - new `content-type` values - `video/mp4` and `audio/mpeg`
    - new headers for streaming: `Content-Range` and `Accept-Ranges`
    - new methods for streaming: `fs.createReadStream()`
    - writing a helper function
+   - the concept that it a client must make *multiple requests* to a web server for a typical web page:
+     - web pages consist of multiple files: HTML, CSS, JS, images, and so on
+     - the first file that a client (ex. Web Browser) downloads is usually the default HTML file that is located at the URL the user typed into the browser (or link that they clicked on)
+     - the additional files (CSS,JS, images) are requested after the client begins to parse the HTML page
+     - each of these files must be individually requested by the client app 
+     - the client then "assembles" the web page and displays it to the user
+   - let's check the HW to see if you got it right!
    
 ## III. Notes for *HTTP API Study Guide*
 - See myCourses dropbox
