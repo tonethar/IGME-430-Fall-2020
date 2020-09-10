@@ -112,13 +112,11 @@
   - head to **server.js**
     - we are importing a new library - `url`
     - let's see it in action - add the following to the top of `onRequest()` and then head to `localhost:3000` and check the console. We should see that we can pull out a lot of information - including info in the *query string*
-    
-```js
-const parsedUrl = url.parse(request.url);
-console.log(parsedUrl);
-```
-
-  - beh
+      - `const parsedUrl = url.parse(request.url);`
+      - `console.log(parsedUrl);`
+    - now let's get an array of the "accept" headers that the requester (client) is sending over - add this to `onRequest` - and test it both in the browser and from the **client.html** file:
+      - `const acceptedTypes = request.headers.accept.split(",");`
+      - `console.log(acceptedTypes);`
     
     
 
