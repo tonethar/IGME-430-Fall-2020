@@ -133,7 +133,14 @@
     - now test `/cats` from browser to see the JSON
     - now click buttons in `/cats` from **client.html** to see the JSON
   - in **client.html**:  
-    - complete the implementation of `handleResponse` so that it displays the cat data in the window
+    - complete the implementation of `handleResponse` so that it displays the JSON cat data in the window
+    - test it
+  - still in **client.html**:  
+    - implement the XML parsing code
+    - we can't test it because the server is still only sending back JSON
+  - in **responses.js**:
+    - get the server to send back XML if the client "requests" it by looking at the `Accept` header that the client sent
+    - 
     
 
 | <-- Previous Unit | Home | Next Unit -->
