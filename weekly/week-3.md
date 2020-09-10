@@ -95,7 +95,10 @@
     - our server (**server.js**) will return the cata data in either JSON or customized XML (JSON will be the default)
       - JSON = "JavaScript Object Notation"
       - XML = "Extensible Markup Language" (i.e. a language for defining our own markup language)
-    - add `onclick` event handlers or `click` event listeners to the buttons - have them call `sendAjax`
+    - add `onclick` event handlers or `click` event listeners to the buttons - have them call `sendAjax` - pass in `/cats` and either `application/json` or `text/xml`
+    - for testing purposes, add this to the top of `sendAjax` - `console.log(url,acceptedType);`
+    - to test the button clicking, you can open **client.html** directly in a browser (we don't need to serve it via node and **server.js**)
+    - now implement the rest of `sendAjax`
     
   - head to **responses.js**:
     - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
