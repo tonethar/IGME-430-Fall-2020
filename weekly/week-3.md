@@ -98,7 +98,8 @@
   - head to **responses.js**:
     - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
     - stub in `getCats` - `const getCats = (request, response, acceptedTypes)...`
-  - `npm start` - server should launch (but do nothing)
+  - `npm start` - server should launch, even though it failed the tests (but it will do nothing at this point)
+  
     
     
 
