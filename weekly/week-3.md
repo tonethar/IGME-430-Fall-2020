@@ -95,6 +95,8 @@
     - our server (**server.js**) will return the cata data in either JSON or customized XML (JSON will be the default)
       - JSON = "JavaScript Object Notation"
       - XML = "Extensible Markup Language" (i.e. a language for defining our own markup language)
+    - add `onclick` event handlers or `click` event listeners to the buttons - have them call `sendAjax`
+    
   - head to **responses.js**:
     - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
     - stub in `getCats` - `const getCats = (request, response, acceptedTypes)...`
