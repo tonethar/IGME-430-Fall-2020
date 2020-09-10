@@ -99,6 +99,11 @@
     - for testing purposes, add this to the top of `sendAjax` - `console.log(url,acceptedType);`
     - to test the button clicking, you can open **client.html** directly in a browser (we don't need to serve it via node and **server.js**)
     - now implement the rest of `sendAjax`
+      - create new XHR object
+      - `open` connection
+      - set the `Accept` request header
+      - set up `onload` callback function 
+      - `send` the request
     
   - head to **responses.js**:
     - it has a helper function called `respond()` that will make it so we don't have to keep repeating the `response.writeHead()`, `response.write()` and `response.end()` lines of code OVER and OVER and OVER and OVER and OVER and ...
