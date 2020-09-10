@@ -45,7 +45,7 @@
    - CommonJS modules with `require()` and `module.exports`
    - `onRequest` "request handler" for `http.createServer()`
    - URL endpoints
-   - sending status codes (ex `200`) with `response.writeHead()`
+   - sending status codes (ex `200 Ok`) with `response.writeHead()`
    - sending content-type headers (ex. `content-type: image/png` or `content-type: text/html`) with `response.writeHead()`
    - sending content (text or PNG media types) with `response.write()`
  - New concepts covered in this HW:
