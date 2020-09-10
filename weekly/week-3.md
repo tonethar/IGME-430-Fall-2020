@@ -74,7 +74,12 @@
 - This is a *substantial* assignment - so get started ASAP
 - See *Week-3/Class Examples* in myCourses for links to helpful code
 - See the 2nd and 3rd YouTube videos ("Rich Media 2 - Week 3.2 Accept Headers" & "Rich Media 2 - Week 3.3 Status Codes") linked under *Video Lectures/Week 3 Videos* in myCourses
-- 
+
+### IV-A. Accept Header Example
+- see video and demo code links in myCourses
+- here's the demo code link - you can either download the ZIP or `git clone` it: https://github.com/IGM-RichMedia-at-RIT/accept-header-example
+- demo:
+  - ds
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
