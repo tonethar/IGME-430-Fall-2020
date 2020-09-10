@@ -119,6 +119,10 @@
       - `console.log(acceptedTypes);`
     - go ahead and test it at `localhost:3000` and check the node console
     - now test it from the browser via the **client.html** XHR calls - you will need to change the url to `http://localhost:3000/getCats` (don't forget to change it back later) - check the node console to see how the `content-type` changes depending on the button we click
+  - still in **server.js**:
+    - how do we handle the different `.pathname` values and our endpoints?
+      - up until now we have been using `if..else` or `switch` statements
+      - let's instead use a *dispatch table* (`urlStruct`)
     
     
 
