@@ -11,13 +11,10 @@
 - It's due tomorrow night
 - If you are stuck on anything, hang around after class
 
-<hr>
-
 ### II-A. More on HTTP Protocol
 
 - Let's discuss how a browser downloads and assembles a web page - head to this demo in Chrome or Firefox, and open the Web Inspector:
  - http://igm.rit.edu/~acjvks/courses/shared/430/simple-server-request-demo/middle-aged-man.html
- 
  
 ### II-B. In-class Demo
 - Let's add an image to the landing page of our HW - Node Simple Web API:
@@ -61,13 +58,17 @@
      - each of these files must be individually requested by the client app 
      - the client then "assembles" the web page and displays it to the user
    - let's check the HW to see if you got it right!
-   
+ 
+<hr>
+
 ## III. Notes for *HTTP API Study Guide*
 - See myCourses dropbox
 - This won't take you too long - so get'er done
 - See *Week-3/Lectures* in myCourses for helpful PDFs
 - See the first YouTube video ("Rich Media 2 - Week 3.1 Servers") linked under *Video Lectures/Week 3 Videos* in myCourses
- 
+
+<hr>
+
 ## IV. Notes for HTTP API Assignment
 - This is a *substantial* assignment - so get started ASAP
 - See *Week-3/Class Examples* in myCourses for links to helpful code
