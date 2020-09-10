@@ -122,7 +122,10 @@
   - still in **server.js**:
     - how do we handle the different `.pathname` values and our endpoints?
       - up until now we have been using `if..else` or `switch` statements
-      - let's instead use a *dispatch table* (`urlStruct`)
+      - let's instead use a *dispatch table* (`urlStruct`) - a dispatch table has *references* (or pointers in other languages) to functions
+      - let's set up values for `/`, `cats` and `index`
+    - now in `onRequest`, how do I call these functions?
+      - let's implement it
     
     
 
