@@ -130,6 +130,8 @@
         - now test the browser `XHR` by clicking the buttons - because node is now serving up the page, be sure to double-check that the XHR `url` is `/cats` - we should see logs to the node console
   - in **responses.js**:
     - implement `getCats`
+    - now test `/cats` from browser to see the JSON
+    - now click buttons in `/cats` from **client.html** to see the JSON
     
     
 
