@@ -132,7 +132,8 @@
     - implement `getCats`
     - now test `/cats` from browser to see the JSON
     - now click buttons in `/cats` from **client.html** to see the JSON
-    
+  - in **client.html**:  
+    - complete the implementation of `handleResponse` so that it displays the cat data in the window
     
 
 | <-- Previous Unit | Home | Next Unit -->
