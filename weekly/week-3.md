@@ -159,6 +159,18 @@
   - https://www.ietf.org/rfc/rfc2324.txt
   - https://www.google.com/teapot
   - https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
+
+#### IV-B-i. Code Snippet for grabbing *url parameters* with the `query` library
+
+**Grab **
+```js
+const parsedUrl = url.parse(request.url);
+const params = query.parse(parsedUrl.query);
+const valid = query.parse(parsedUrl.query).valid;
+console.dir(parsedUrl);
+console.dir(params);
+console.dir(valid);
+```
     
 ## V. Next Week
 
