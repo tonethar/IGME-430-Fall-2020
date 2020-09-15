@@ -152,6 +152,8 @@
 - here's the demo video link - https://www.youtube.com/watch?v=vHSb7GjmMxA
 - among other things, this covers how to grab parameters from a query string, like `/?loggedin=true`
 - it uses the `query` library, and `query.parse()` to do so
+- reference:
+  - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
     
 ## V. Next Week
 
@@ -159,4 +161,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-2.md**](week-2.md)     |  [**IGME-430 Home**](../README.md) | **week-4.md**
+| [**week-2.md**](week-2.md)     |  [**IGME-430 Home**](../README.md) | [**week-4.md**](week-4.md)
