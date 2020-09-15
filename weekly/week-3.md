@@ -162,7 +162,6 @@
 
 #### IV-B-i. Code Snippet for grabbing *url parameters* with the `query` library
 
-**Grab **
 ```js
 const parsedUrl = url.parse(request.url);
 const params = query.parse(parsedUrl.query);
