@@ -156,6 +156,7 @@
   - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
   - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
   - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418
+  - https://www.ietf.org/rfc/rfc2324.txt
   - https://www.google.com/teapot
     
 ## V. Next Week
