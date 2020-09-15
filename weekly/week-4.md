@@ -6,7 +6,7 @@
 
 
 ## II. *HTTP API Assignment II*
-
+- `HEAD` requests and body parsing
 
 
 
