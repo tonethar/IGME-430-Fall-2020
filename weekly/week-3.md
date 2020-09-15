@@ -158,6 +158,7 @@
   - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418
   - https://www.ietf.org/rfc/rfc2324.txt
   - https://www.google.com/teapot
+  - https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
     
 ## V. Next Week
 
