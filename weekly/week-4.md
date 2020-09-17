@@ -51,6 +51,8 @@
      - implement `getUsersMeta`
        - would also be nice to calculate file size, last-modified date etc ... and send that too
      - implement `notFound`
+     - implement `notFoundMeta`
+     - implement `updateUser`
       
 <hr>
 
