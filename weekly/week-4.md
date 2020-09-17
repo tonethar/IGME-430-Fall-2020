@@ -13,6 +13,7 @@
 
 ### II-A. Questions
 - *What is the major difference between what the server returns when it receives a `HEAD` request as opposed to the more common `GET` request?*
+- *How do `POST` requests differ from `GET` requests? i.e. When should we use a `POST` request **instead of** a `GET` request?*
 
 ### II-B. Study Guide Reference Links
 - HTTP Methods:
