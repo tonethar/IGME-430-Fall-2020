@@ -30,6 +30,7 @@
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/head-request-class-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=DPkIjyjVHTs
 - Overview:
+  - let's install **nodemon** - `npm i nodemon --save-dev` & `"nodemon": "nodemon --watch ./src ./src/server.js"`
   - look over code:
     - **package.json** - we only have eslint `"devDependencies"`
     - **server.js** is already importing **htmlResponses.js** and **jsonResponses.js**, but it needs to get its *routing* set up
