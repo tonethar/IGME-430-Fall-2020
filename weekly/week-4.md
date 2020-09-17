@@ -12,19 +12,17 @@
   - shared data is being created "in the cloud" - so keep the names SFW please
   - let's test this version both in the browser (with the Network tab open) & with Postman
 
-
-
-### II-A. Questions
-- *What is the major difference between what the server returns when it receives a `HEAD` request as opposed to the more common `GET` request?*
-- *How do `POST` requests differ from `GET` requests? i.e. When should we use a `POST` request **instead of** a `GET` request?*
-
-### II-B. Study Guide Reference Links
+### II-A. Study Guide Reference Links
 - HTTP Methods:
   - https://www.tutorialspoint.com/http/http_methods.htm 
   - http://www.w3schools.com/TAGS/ref_httpmethods.asp 
 - HTTP Responses:
   - https://geemus.gitbooks.io/http-api-design/content/en/responses/ 
-  
+
+### II-B. Questions
+- *What is the major difference between what the server returns when it receives a `HEAD` request as opposed to the more common `GET` request?*
+- *How do `POST` requests differ from `GET` requests? i.e. When should we use a `POST` request **instead of** a `GET` request?*
+
 <hr>
   
 ## III. `HEAD` request demo
@@ -49,6 +47,9 @@
        - when is this useful?
      - implement `respondJSONMeta`
      - implement `getUsers`
+     - implement `getUsersMeta`
+       - would also be nice to calculate file size, last-modified date etc ... and send that too
+     - implement `notFound`
       
 <hr>
 
