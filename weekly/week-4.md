@@ -46,6 +46,7 @@
 - YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=kozmX-FWqdc
 - See myCourses dropboxes for deliverable due dates
 
+<hr><hr>  
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
