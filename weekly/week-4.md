@@ -8,12 +8,17 @@
 ## II. *HTTP API Assignment II*
 - `HEAD` requests and body parsing
 
-### II-A. Reference Links
+### II-A. Questions
+- *What is the major difference between what the server returns when it receives a `HEAD` request as opposed to the more common `GET` request?*
+
+### II-B. Reference Links
 - HTTP Methods:
   - https://www.tutorialspoint.com/http/http_methods.htm 
   - http://www.w3schools.com/TAGS/ref_httpmethods.asp 
 - HTTP Responses:
   - https://geemus.gitbooks.io/http-api-design/content/en/responses/ 
+
+
   
 
 
