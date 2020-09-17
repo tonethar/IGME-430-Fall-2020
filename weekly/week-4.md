@@ -32,6 +32,9 @@
     - **server.js** is already importing **htmlResponses.js** and **jsonResponses.js**, but it needs to get its *routing* set up
     - **htmlResponses.js** is all set - it simply sends back 2 static files (**client.html** & **style.css**)
     - **jsonResponses.js** is where most of the work still needs to be done
+    - **client.html** will send XHR requests to the server:
+      - sends Ajax requests via `XHR`
+      - the user will be able to choose the *request method* of either `GET` or `HEAD` (as opposed to the user changing the value of the `Accept` header like we did in the last HW)
 
 <hr>
 
