@@ -73,7 +73,7 @@
         - need `e.preventDefault()` to kill the form `action` or we'll end up submitting twice!
         - test in browser
       - implement `handleResponse()`
-      - test in browser - all done!
+      - test in browser - the `HEAD` and `GET` requests should now work -  all done!
       
 <hr>
 
