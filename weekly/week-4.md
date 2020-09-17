@@ -54,7 +54,8 @@
      - implement `notFound`
      - implement `notFoundMeta`
      - implement `updateUser`
-      
+   - **server.js**:  
+     - work on our `urlStruct` *dispatch table* and implement `GET` and `HEAD` request methods
 <hr>
 
 ## IV. `POST` requests & body parsing example
