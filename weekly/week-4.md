@@ -67,6 +67,7 @@
       - first, delete the client-side "babel stuff", as it is not necessary and may interfere with your client-side debugging
       - HTML forms (old school!)
         - have `action` and `method` attributes
+        - we need `<input type="submit" value="Send" />` for this form to work
 <hr>
 
 ## IV. `POST` requests & body parsing example
