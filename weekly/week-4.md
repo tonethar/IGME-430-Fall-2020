@@ -68,6 +68,12 @@
       - HTML forms (old school!)
         - have `action` and `method` attributes
         - we need `<input type="submit" value="Send" />` for this form to work
+      - Now let's write JavaScript to override the default behavior of the form
+      - implement `requestUpdate()`
+        - need `e.preventDefault()` to kill the form `action` or we'll end up submitting twice!
+        - test on server
+      - implement `handleResponse()`
+      
 <hr>
 
 ## IV. `POST` requests & body parsing example
