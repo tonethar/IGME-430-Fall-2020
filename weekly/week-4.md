@@ -58,7 +58,9 @@
      - work on our `urlStruct` *dispatch table* and implement `GET` and `HEAD` request methods
      - log out the *route* and *request* method in `onRequest`
        - test in browser
-     - hook up `onRequest` to dispatch table
+     - hook up `onRequest` to dispatch table so that we send a response back
+       - BTW - code is not perfect and will fail if HTTP method is not 'GET' or 'HEAD'
+       - test in browser and in Postman
 <hr>
 
 ## IV. `POST` requests & body parsing example
