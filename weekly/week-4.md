@@ -44,10 +44,12 @@
    - **jsonResponses.js**:
      - `const users = {};` 
        - is going to store data that the user sends to the server - this data will persist for 15 minutes or so until the Heroku server reboots. Project 1 will also follow this model of short-lived data. For Project 2 we'll learn to use MongoDB to persist the data so that the server can access it even through reboots
-     - complete `respondJSON`
+     - implement `respondJSON`
      - what are the differences between `respondJSONMeta`, `getUsersMeta`, `notFoundMeta` AND `respondJSON`, `getUsers`, `notFound` ?
        - when is this useful?
-
+     - implement `respondJSONMeta`
+     - implement `getUsers`
+      
 <hr>
 
 ## IV. `POST` requests & body parsing example
