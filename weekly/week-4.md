@@ -35,6 +35,9 @@
     - **client.html** will send XHR requests to the server:
       - sends Ajax requests via `XHR`
       - the user will be able to choose the *request method* of either `GET` or `HEAD` (as opposed to the user changing the value of the `Accept` header like we did in the last HW)
+ - Walkthrough:
+   - **jsonResponses.js**:
+     - complete `respondJSON`
 
 <hr>
 
@@ -42,6 +45,7 @@
 
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/body-parse-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=QY5sBCg6Ksg
+- **YOU NEED TO GO THROUGH THIS ON YOUR OWN**
 
 <hr>  
 
