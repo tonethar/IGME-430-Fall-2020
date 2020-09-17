@@ -22,7 +22,7 @@
   
 <hr>
   
-### III. `HEAD` request demo
+## III. `HEAD` request demo
 
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/head-request-class-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=DPkIjyjVHTs
@@ -33,14 +33,14 @@
 
 <hr>
 
-### IV. `POST` requests & body parsing example
+## IV. `POST` requests & body parsing example
 
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/body-parse-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=QY5sBCg6Ksg
 
 <hr>  
 
-### V. Project 1 Assigned
+## V. Project 1 Assigned
 
 - Requirements (link is also in myCourses): https://people.rit.edu/arwigm/430/
 - YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=kozmX-FWqdc
