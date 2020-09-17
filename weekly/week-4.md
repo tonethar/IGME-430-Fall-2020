@@ -65,6 +65,8 @@
        - check the node console, and note how **style.css** is being requested - "who" made that request, again?
     - **client.html**: 
       - first, delete the client-side "babel stuff", as it is not necessary and may interfere with your client-side debugging
+      - HTML forms (old school!)
+        - have `action` and `method` attributes
 <hr>
 
 ## IV. `POST` requests & body parsing example
