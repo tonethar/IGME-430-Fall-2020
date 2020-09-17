@@ -61,7 +61,7 @@
 
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/body-parse-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=QY5sBCg6Ksg
-- **YOU NEED TO GO THROUGH THIS ON YOUR OWN**
+- \*\***YOU NEED TO GO THROUGH THIS ON YOUR OWN**\*\*
 
 <hr>  
 
