@@ -8,7 +8,10 @@
 
 ## II. *HTTP API Assignment II*
 - What's new: `HEAD` requests and body parsing of `POST` requests
-- Working example here: - https://http-api-application-ii.herokuapp.com/
+- Working example here: - https://http-api-application-ii.herokuapp.com/ - let's test this in the browser
+  - shared data is being created "in the cloud" - so keep the names SFW please
+  - let's test this version both in the browser (with the Network tab open) & with Postman
+
 
 
 ### II-A. Questions
@@ -39,7 +42,10 @@
       - the user will be able to choose the *request method* of either `GET` or `HEAD` (as opposed to the user changing the value of the `Accept` header like we did in the last HW)
  - Walkthrough:
    - **jsonResponses.js**:
+     - `const users = {};` 
+       - is going to store data that the user sends to the server - this data will persist for 15 minutes or so until the Heroku server reboots. Project 1 will also follow this model of short-lived data. For Project 2 we'll learn to use MongoDB to persist the data so that the server can access it even through reboots
      - complete `respondJSON`
+     - what are the differences between `respondJSONMeta`, `getUsersMeta`, `notFoundMeta` AND `respondJSON`, `getUsers`, `notFound` ?
 
 <hr>
 
