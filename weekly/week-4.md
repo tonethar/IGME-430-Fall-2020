@@ -57,6 +57,8 @@
    - **server.js**:  
      - work on our `urlStruct` *dispatch table* and implement `GET` and `HEAD` request methods
      - log out the *route* and *request* method in `onRequest`
+       - test in browser
+     - hook up `onRequest` to dispatch table
 <hr>
 
 ## IV. `POST` requests & body parsing example
