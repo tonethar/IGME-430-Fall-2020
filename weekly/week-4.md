@@ -7,7 +7,7 @@
 <hr>
 
 ## II. *HTTP API Assignment II*
-- `HEAD` requests and body parsing
+- What's new: `HEAD` requests and body parsing
 
 
 ### II-A. Questions
