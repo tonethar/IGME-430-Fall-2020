@@ -57,10 +57,11 @@
    - **server.js**:  
      - work on our `urlStruct` *dispatch table* and implement `GET` and `HEAD` request methods
      - log out the *route* and *request* method in `onRequest`
-       - test in browser
+       - test in browser and check the node console
      - hook up `onRequest` to dispatch table so that we send a response back
        - BTW - code is not perfect and will fail if HTTP method is not 'GET' or 'HEAD'
        - test in browser and in Postman
+       - check the node console, and note how **style.css** is being requested - "who" made that request, again?
 <hr>
 
 ## IV. `POST` requests & body parsing example
