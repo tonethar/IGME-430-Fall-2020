@@ -7,7 +7,8 @@
 <hr>
 
 ## II. *HTTP API Assignment II*
-- What's new: `HEAD` requests and body parsing
+- What's new: `HEAD` requests and body parsing of `POST` requests
+- Working example here: - https://http-api-application-ii.herokuapp.com/
 
 
 ### II-A. Questions
