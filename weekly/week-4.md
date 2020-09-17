@@ -56,6 +56,7 @@
      - implement `updateUser`
    - **server.js**:  
      - work on our `urlStruct` *dispatch table* and implement `GET` and `HEAD` request methods
+     - log out the *route* and *request* method in `onRequest`
 <hr>
 
 ## IV. `POST` requests & body parsing example
