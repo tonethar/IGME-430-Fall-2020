@@ -37,7 +37,7 @@
     - **server.js** is already importing **htmlResponses.js** and **jsonResponses.js**, but it needs to get its *routing* set up
     - **htmlResponses.js** is all set - it simply sends back 2 static files (**client.html** & **style.css**)
     - **jsonResponses.js** is where most of the work still needs to be done
-    - **client.html** will send XHR requests to the server:
+    - **client.html** will send "form" and XHR requests to the server:
       - sends Ajax requests via `XHR`
       - the user will be able to choose the *request method* of either `GET` or `HEAD` (as opposed to the user changing the value of the `Accept` header like we did in the last HW)
  - Walkthrough:
@@ -63,6 +63,8 @@
        - test `updateUser` and `getUsers` in browser - note that we are getting content back even though we are supposedly making `HEAD` requests - we'll fix that soon
        - now test in Postman and test these endpoints as both `GET` and `HEAD` requests
        - check the node console, and note how **style.css** is being requested - "who" made that request, again?
+    - **client.html**: 
+      - first, delete the client-side "babel stuff", as it is not necessary and may interfere with your client-side debugging
 <hr>
 
 ## IV. `POST` requests & body parsing example
