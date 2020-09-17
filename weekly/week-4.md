@@ -30,7 +30,7 @@
   - look over code:
     - **package.json** - we only have eslint `"devDependencies"`
     - **server.js** is already importing **htmlResponses.js** and **jsonResponses.js**, but it needs to get its *routing* set up
-    - **htmlResponses.js** is all set - it simply sends back 2 static files (HTML & CSS)
+    - **htmlResponses.js** is all set - it simply sends back 2 static files (**client.html** & **style.css**)
     - **jsonResponses.js** is where most of the work still needs to be done
 
 <hr>
