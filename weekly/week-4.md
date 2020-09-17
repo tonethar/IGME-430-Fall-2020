@@ -60,7 +60,7 @@
        - test in browser and check the node console
      - hook up `onRequest` to dispatch table so that we send a response back
        - BTW - code is not perfect and will fail if HTTP method is not `GET` or `HEAD`
-       - test `updateUser` and `getUsers` in browser
+       - test `updateUser` and `getUsers` in browser - note that we are getting content back even though we are supposedly making `HEAD` requests - we'll fix that soon
        - now test in Postman and test these endpoints as both `GET` and `HEAD` requests
        - check the node console, and note how **style.css** is being requested - "who" made that request, again?
 <hr>
