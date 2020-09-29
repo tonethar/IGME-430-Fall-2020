@@ -14,7 +14,8 @@
 ## III. Nodemon & Babel Demo
 
 - Start code: https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
-- There is a YouTube Video walkthrough f this demo linked in "Week 5 Videos" in myCourses 
+- There is a YouTube Video walkthrough of this demo linked in "Week 5 Videos" in myCourses 
+- There is also a PDF in "Week 5" in myCourses 
 
 1. `npm install --save-dev nodemon @babel/core @babel/preset-env @babel/cli`
 
