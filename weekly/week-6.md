@@ -36,8 +36,11 @@
 
 8. Add a script to your **package.json** - `"build" : "babel ./client --out-file ./hosted/bundle.js"`
 
-    - this is going to transpile your ***client-side*** JavaScript and put the results of the compilation into **bundle.js**
+    - this is going to transpile your ***client-side*** JavaScript and put the results of the compilation into **/hosted/bundle.js**
 
+9. Go ahead and make a **hosted** folder
+
+10. 
 
 - https://www.npmjs.com/package/nodemon
   
