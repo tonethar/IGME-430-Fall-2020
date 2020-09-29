@@ -32,7 +32,7 @@
 
 6. ... now we'll move on the babel ...
 
-7. Open up **.babelrc ** - and take a look - for now it is compiling to ES5 - we're not going to change this for now - but this file IS required for bable to work
+7. Open up **.babelrc** - and take a look - for now it is compiling to ES5 - we're not going to change this for now - but this file IS required for bable to work
 
 8. Add a script to your **package.json** - `"build" : "babel ./client --out-file ./hosted/bundle.js"`
 
@@ -57,11 +57,11 @@
 17. In **server.js** modify `urlStruct` to serve up **/bundle.js**
 
 18. Now we can `npm run build`
-  - check the **hosted** folder to see **bundle.js**
-  - open up **bundle.js** to see the transpiled JavaScript
-  - go ahead and edit **client.js** to and `npm run build` again, and then check **bundle.js** to see the changes
-  - don't edit **bundle.js** (your changes will get continually wiped out)
-  - `npm run build` and then `npm run nodemon` to see it functioning (check the browser to see that **bundle.js** is getting loaded)
+    - check the **hosted** folder to see **bundle.js**
+    - open up **bundle.js** to see the transpiled JavaScript
+    - go ahead and edit **client.js** to and `npm run build` again, and then check **bundle.js** to see the changes
+    - don't edit **bundle.js** (your changes will get continually wiped out)
+    - `npm run build` and then `npm run nodemon` to see it functioning (check the browser to see that **bundle.js** is getting loaded)
   
 
 - https://www.npmjs.com/package/nodemon
