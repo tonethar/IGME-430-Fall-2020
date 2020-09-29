@@ -74,7 +74,6 @@
     - Solution #1 - two Terminal (or GitBash or whatever) windows running at same time
     - Solution #2 - Use unix `fg` and `bg` commands - https://www.thegeekdiary.com/understanding-the-job-control-commands-in-linux-bg-fg-and-ctrlz/ 
 
-23. Ad we'll need to add `--watch ./hosted` to out `"nodemon"` script
 
 ## IV. Resources
 - https://www.npmjs.com/package/nodemon
