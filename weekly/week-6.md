@@ -68,6 +68,12 @@
 
 20. Add a script to your **package.json** - `"watch" : "babel --watch ./client --out-file ./hosted/bundle.js"`
 
+21. `npm run watch` - now if I make a change to **client.js**, I will see it in **bundle.js** (but the server doesn't work!)
+
+22. So, we need to have  `npm run watch` & `npm run nodemon` running at the same time:
+    - Solution #1 - two Terminal (or GitBash or whatever) windows running at same time
+    - Solution #2 - Use unix `fg` and `bg` commands - https://www.thegeekdiary.com/understanding-the-job-control-commands-in-linux-bg-fg-and-ctrlz/ 
+
 ## IV. Resoources
 - https://www.npmjs.com/package/nodemon
   
