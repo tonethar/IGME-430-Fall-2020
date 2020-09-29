@@ -13,7 +13,21 @@
   
 ## III. Nodemon & Babel Demo
 
-- https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
+- Start code: https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
+- YouTube Video walkthrough: 
+
+1. `npm install --save-dev nodemon @babel/core @babel/preset-env @babel/cli`
+
+- If you are on Mac OS and run into issues like **gyp: No Xcode or CLT version detected!**:
+  - https://stackoverflow.com/questions/60573595/npm-install-fails-on-node-gyp-rebuild-with-gyp-no-xcode-or-clt-version-detec
+  - https://developer.apple.com/download/more/
+
+2. Check **package.json** `"devDependencies"` to see what was installed
+
+3. 
+
+
+
 - https://www.npmjs.com/package/nodemon
   
   
