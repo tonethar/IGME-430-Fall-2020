@@ -63,7 +63,11 @@
     - don't edit **bundle.js** (your changes will get continually wiped out)
     - `npm run build` and then `npm run nodemon` to see it functioning (check the browser to see that **bundle.js** is getting loaded)
   
+19. But ... if I change my **client.js** code with `nodemon` running, the updates won't get triggered
 
+20. Add a script to your **package.json** - `"watch" : "babel --watch ./client --out-file ./hosted/bundle.js"`
+
+## IV. Resoources
 - https://www.npmjs.com/package/nodemon
   
   
