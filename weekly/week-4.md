@@ -1,4 +1,7 @@
-# Week-4 (9/15/20 & 9/17/20)
+# Week-4/5 (9/15/20 & 9/17/20 & 9/24/20)
+
+- class was cancelled Tuesday 9/22
+- we finished up this content on Thursday 9/24/20
 
 ## I. Finish up notes for *HTTP API Assignment*
 - See IV-A. & IV-B. from [last week](week-3.md)
@@ -82,6 +85,7 @@
 - demo starter code (link is also in myCourses): https://github.com/IGM-RichMedia-at-RIT/body-parse-example
 - demo YouTube video (link is also in myCourses): https://www.youtube.com/watch?v=QY5sBCg6Ksg
 - \*\***YOU NEED TO GO THROUGH THIS ON YOUR OWN**\*\*
+- For the "done version" of this demo, see the Week 5 *Content* section of myCourses, under *DONE FILES* 
 
 <hr>  
 
@@ -95,4 +99,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-3.md**](week-3.md)     |  [**IGME-430 Home**](../README.md) | **week-5.md**
+| [**week-3.md**](week-3.md)     |  [**IGME-430 Home**](../README.md) | [**week-6.md**](week-6.md)
