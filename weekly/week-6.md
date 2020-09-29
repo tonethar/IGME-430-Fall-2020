@@ -80,6 +80,8 @@
 
 25. Almost there! We still need to get to recognize chnages to **client.html**
 
+26. Add this to the `"nodemon"` script - `-e js,html,css` - now nodemon will hatch .js, .html, and .css files for chnages (and will reboot the server when it sees them)
+
 ## IV. Resources
 - https://www.npmjs.com/package/nodemon
   
