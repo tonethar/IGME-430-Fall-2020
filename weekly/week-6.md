@@ -11,7 +11,7 @@
 - But these features don't work in all recent browsers - what to do?
   - https://babeljs.io/
   
-## IV. Nodemon & Babel Demo
+## III. Nodemon & Babel Demo
 
 - https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
 - https://www.npmjs.com/package/nodemon
