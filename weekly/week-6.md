@@ -30,6 +30,9 @@
 
 5. Modify one or the files in your `src` folder - you will see the server reboot
 
+6. ... now we'll move on the babel ...
+
+7. Open up **.babelrc **
 
 
 - https://www.npmjs.com/package/nodemon
