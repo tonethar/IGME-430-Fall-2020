@@ -76,6 +76,10 @@
 
 23. And we'll need to add `--watch ./hosted` to our `"nodemon"` script
 
+24. Test it. Editing **client.js** will recompile **bundle.js** and relaunch the server for us
+
+25. Almost there! We still need to get to recognize chnages to **client.html**
+
 ## IV. Resources
 - https://www.npmjs.com/package/nodemon
   
