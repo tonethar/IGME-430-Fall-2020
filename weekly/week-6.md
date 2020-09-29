@@ -32,7 +32,11 @@
 
 6. ... now we'll move on the babel ...
 
-7. Open up **.babelrc **
+7. Open up **.babelrc ** - and take a look - for now it is compiling to ES5 - we're not going to change this for now - but this file IS required for bable to work
+
+8. Add a script to your **package.json** - `"build" : "babel ./client --out-file ./hosted/bundle.js"`
+
+    - this is going to transpile your ***client-side*** JavaScript and put the results of the compilation into **bundle.js**
 
 
 - https://www.npmjs.com/package/nodemon
