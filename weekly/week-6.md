@@ -82,6 +82,10 @@
 
 26. Add this to the `"nodemon"` script - `-e js,html,css` - now nodemon will hatch .js, .html, and .css files for chnages (and will reboot the server when it sees them)
 
+27. Once it's set up - all of this nodemon capability makes your developer life easier!
+  - is using `nodemon` required? NO
+  - is using `babel` required? YES - on Project 2
+
 ## IV. Resources
 - https://www.npmjs.com/package/nodemon
   
