@@ -14,7 +14,7 @@
 ## III. Nodemon & Babel Demo
 
 - Start code: https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
-- YouTube Video walkthrough: 
+- There is a YouTube Video walkthrough f this demo linked in "Week 5 Videos" in myCourses 
 
 1. `npm install --save-dev nodemon @babel/core @babel/preset-env @babel/cli`
 
@@ -24,7 +24,11 @@
 
 2. Check **package.json** `"devDependencies"` to see what was installed
 
-3. 
+3. Add a script to your **package.json** - `"nodemon" : "nodemon --watch ./src ./src/server.js"`
+
+4. Run it with `npm run nodemon`
+
+5. Modify one or the files in your `src` folder - you will see the server reboot
 
 
 
