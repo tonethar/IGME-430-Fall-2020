@@ -40,7 +40,29 @@
 
 9. Go ahead and make a **hosted** folder
 
-10. 
+10. Move **client.html** into the **hosted** folder
+
+11. Move the JS from **client.html** into a file named **client.js**, and put that file in the **client** folder
+
+12. Delete the "babel" script tags from **client.html**
+
+13. Link to our (soon to be) transpiled JS code - `<script src="/bundle.js"></script>`
+
+14. Change **htmlResponses.js** to point at new location of **client.html** (in the **hosted** folder)
+
+15. Write code to load **bundle.js** 
+
+16. Write a `getBundle` function - the `content-type` is `'application/javascript'`
+
+17. In **server.js** modify `urlStruct` to serve up **/bundle.js**
+
+18. Now we can `npm run build`
+  - check the **hosted** folder to see **bundle.js**
+  - open up **bundle.js** to see the transpiled JavaScript
+  - go ahead and edit **client.js** to and `npm run build` again, and then check **bundle.js** to see the changes
+  - don't edit **bundle.js** (your changes will get continually wiped out)
+  - `npm run build` and then `npm run nodemon` to see it functioning (check the browser to see that **bundle.js** is getting loaded)
+  
 
 - https://www.npmjs.com/package/nodemon
   
