@@ -99,6 +99,7 @@
 ## V. Debugging Code
 
 - See the "Debugging Node" PDF Guide in "Week 5" in myCourses 
+- There is a "Debugging Node" video linked under "Week 6 Videos"
 
 <hr><hr>  
 
