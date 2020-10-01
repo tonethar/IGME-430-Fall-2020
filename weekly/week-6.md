@@ -2,6 +2,8 @@
 
 ## I. Overview
 - This week we are talking about *tools* that will make your developer life easier!
+  - [`nodemon`](https://www.npmjs.com/package/nodemon) is a tool that will restart your node server every time you modify a file (HS, HTML, CSS) and save the changes
+  - [`babel`](https://babeljs.io/repl/) is a tool that will *transpile* our modern [ES6](http://es6-features.org/#Constants) or [ES7+](https://davidwalsh.name/es7-es8-features) JavaScript (in our case, we're only using it on the client-side) into more widely adopted ES5 JavaScript
 
 ## II. Transpiling with Babel
 
@@ -16,12 +18,13 @@
 - Start code: https://github.com/IGM-RichMedia-at-RIT/Nodemon-Babel-Class-Example (also linked in Week 5 of myCourses)
 - There is a YouTube Video walkthrough of this demo linked in "Week 5 Videos" in myCourses 
 - There is also a PDF in "Week 5" in myCourses 
+- The completed version of this demo is in myCourses (in Week 5 content section, under "DONE FILES")
 
 1. `npm install --save-dev nodemon @babel/core @babel/preset-env @babel/cli`
 
-- If you are on Mac OS and run into issues like **gyp: No Xcode or CLT version detected!**:
-  - https://stackoverflow.com/questions/60573595/npm-install-fails-on-node-gyp-rebuild-with-gyp-no-xcode-or-clt-version-detec
-  - https://developer.apple.com/download/more/
+  - If you are on Mac OS and run into issues like **gyp: No Xcode or CLT version detected!**:
+    - https://stackoverflow.com/questions/60573595/npm-install-fails-on-node-gyp-rebuild-with-gyp-no-xcode-or-clt-version-detec
+    - https://developer.apple.com/download/more/
 
 2. Check **package.json** `"devDependencies"` to see what was installed
 
@@ -80,16 +83,19 @@
 
 25. Almost there! We still need to get to recognize changes to **client.html**
 
-26. Add this to the `"nodemon"` script - `-e js,html,css` - now nodemon will hatch .js, .html, and .css files for chnages (and will reboot the server when it sees them)
+26. Add this to the `"nodemon"` script - `-e js,html,css` - now nodemon will hatch .js, .html, and .css files for changes (and will reboot the server when it sees them)
 
 27. Once it's set up - all of this nodemon capability makes your developer life easier!
-  - is using `nodemon` required? NO
-  - is using `babel` required? YES - on Project 2
+    - is using `nodemon` required? NO
+    - is using `babel` required? YES - on Project 2
 
-## IV. Resources
+## IV. Nodemon & Babel Resources
 - https://www.npmjs.com/package/nodemon
-  
-  
+- 
+
+## V. Debugging Code
+
+
 <hr><hr>  
 
 | <-- Previous Unit | Home | Next Unit -->
