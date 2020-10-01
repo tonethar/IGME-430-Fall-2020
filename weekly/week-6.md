@@ -96,10 +96,16 @@
 - https://babeljs.io/docs/en/babel-cli
 
 
-## V. Debugging Code
+## V. Debugging Node Code (server side debugging)
 
+- YEs, we cn go beyond `console.log()` on the server-side
 - See the "Debugging Node" PDF Guide in "Week 5" in myCourses 
 - There is a "Debugging Node" video linked under "Week 6 Videos"
+
+### V-A. Demo
+
+-  `node --inspect ./src/server.js`
+- head to Chrome - `chrome://inspect`
 
 <hr><hr>  
 
