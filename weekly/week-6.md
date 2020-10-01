@@ -91,7 +91,10 @@
 
 ## IV. Nodemon & Babel Resources
 - https://www.npmjs.com/package/nodemon
-- 
+- https://babeljs.io/docs/en/babel-core
+- https://babeljs.io/docs/en/babel-preset-env
+- https://babeljs.io/docs/en/babel-cli
+
 
 ## V. Debugging Code
 
