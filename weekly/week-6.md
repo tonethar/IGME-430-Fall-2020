@@ -105,7 +105,7 @@
 ### V-A. Demo
 
 -  `node --inspect ./src/server.js`
-- head to Chrome - `chrome://inspect`
+- open up Chrome and type - `chrome://inspect`
 
 ## VI. Look at Project Prototypes
 
