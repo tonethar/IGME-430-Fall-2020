@@ -106,6 +106,8 @@
 
 -  `node --inspect ./src/server.js`
 - open up Chrome and type - `chrome://inspect`
+- start adding breakpoints!
+- Docs: https://nodejs.org/en/docs/guides/debugging-getting-started/
 
 ## VI. Look at Project Prototypes
 
