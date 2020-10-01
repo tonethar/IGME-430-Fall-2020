@@ -109,7 +109,8 @@
 
 ## VI. Look at Project Prototypes
 
-- Don't have one and have not yet posted to the Project 1 Prototype dropbox? Let's get a starter project up and running NOW, before you leave for tonight:
+- Don't have one and have not yet posted to the Project 1 Prototype dropbox? 
+  - Let's get a starter project up and running NOW, before you leave for tonight:
   - Create a new repository on GitHub - something like **430-project-1**
   - `git clone` it to your desktop
   - set up an **src** folder with at least a **server.js** and a **htmlResponses.js** file
@@ -119,6 +120,7 @@
     - the ZIP of your GitHub repository
     - the url of your GitHub repository
     - a link to your working project on Heroku
+  - keep working on this, and post your updated GitHub repo (zipped) to myCourses before the dropbox closes
 
 
 <hr><hr>  
