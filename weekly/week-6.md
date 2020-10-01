@@ -98,7 +98,7 @@
 
 ## V. Debugging Node Code (server side debugging)
 
-- YEs, we cn go beyond `console.log()` on the server-side
+- YEs, we can go beyond `console.log()` on the server-side
 - See the "Debugging Node" PDF Guide in "Week 5" in myCourses 
 - There is a "Debugging Node" video linked under "Week 6 Videos"
 
@@ -116,8 +116,8 @@
   - get the app to return an index page for the `/` endpoint
   - get it working on Heroku
   - post the following to the Project 1 Prototype dropbox (before you "leave" tonight):
-    - the ZIP of your GitHub repsoitory
-    - the url of your GitHub repsoitory
+    - the ZIP of your GitHub repository
+    - the url of your GitHub repository
     - a link to your working project on Heroku
 
 
