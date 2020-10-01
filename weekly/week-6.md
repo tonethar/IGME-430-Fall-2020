@@ -83,7 +83,7 @@
 
 25. Almost there! We still need to get to recognize changes to **client.html**
 
-26. Add this to the `"nodemon"` script - `-e js,html,css` - now nodemon will hatch .js, .html, and .css files for changes (and will reboot the server when it sees them)
+26. Add this to the `"nodemon"` script - `-e js,html,css` - the `e` stands for "extension" - now nodemon will watch **.js**, **.html**, and **.css** files for changes (and will reboot the server when it sees them)
 
 27. Once it's set up - all of this nodemon capability makes your developer life easier!
     - *is using `nodemon` required?* - **NO**
