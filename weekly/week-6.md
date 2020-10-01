@@ -92,7 +92,7 @@
 ## IV. Nodemon & Babel Resources
 - https://www.npmjs.com/package/nodemon
 - https://babeljs.io/docs/en/babel-core
-- https://babeljs.io/docs/en/babel-preset-env
+- https://babeljs.io/docs/en/babel-preset-env - `preset-env` (in the **.babelrc** file) will transform all ES2015-ES2020 code to be ES5 compatible
 - https://babeljs.io/docs/en/babel-cli
 
 
