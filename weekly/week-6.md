@@ -111,8 +111,7 @@
 
 ## VI. Look at Project Prototypes
 
-- Don't have one and have not yet posted to the Project 1 Prototype dropbox? 
-  - SUGGESTION:  get a starter project up and running NOW, before you leave for tonight:
+- Don't have one and have not yet posted to the Project 1 Prototype dropbox?  - SUGGESTION:  get a starter project up and running NOW, before you leave for tonight:
   - Create a new repository on GitHub - something like **430-project-1**
   - `git clone` it to your desktop
   - set up an **src** folder with at least a **server.js** and a **htmlResponses.js** file
