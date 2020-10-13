@@ -53,7 +53,11 @@ let mydoc = {
   - https://www.npmjs.com/package/express
   - Static file hosting
   - plugins (like `serve-favicon`, `cookie-parser`, `body-parser`, `compression`)
-
+    - https://www.npmjs.com/package/serve-favicon
+    - https://www.npmjs.com/package/cookie-parser
+    - https://www.npmjs.com/package/body-parser
+    - https://www.npmjs.com/package/compression
+    
 <hr>
 
 ## V. Express Demo
