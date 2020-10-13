@@ -117,8 +117,13 @@ app.listen(port,(err)=>{
   - test it
   - add **page2** & **page3** endpoints
 - Add `notFound` handler
-  - `res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`));`
-  - `app.get('/*',controllers.notFound); // order matters!`
+
+```js
+res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`));
+
+app.get('/*',controllers.notFound); // order matters!
+```
+ 
 
  
 
