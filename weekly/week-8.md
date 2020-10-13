@@ -13,7 +13,7 @@
   - see the "Week 6.2 HTTP Server Design" video
   - see the accompanying PDF 
 - Assignments:
-  - there was a HTTP Server Design Study Guide that had you research a JavaScript software design pattern and discuss it
+  - See the HTTP Server Design Study Guide Dropbox (it has you research a JavaScript software design pattern and discuss it)
   
 ## III. Databases
   - Database Management Systems (or DBMS) are applications designed for managing and organizing collections of data
@@ -37,6 +37,8 @@ let mydoc = {
 }
 ```
  
+- Presentations/Resources
+  - see "Database Study Guide" dropbox, and "Database Study Guide" PDF in Week-7 content section of myCourses
  
 
 <hr><hr>  
