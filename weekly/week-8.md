@@ -1,6 +1,8 @@
 # Week-8 (10/13/20 & 10/15/20)
 
-## I. Overview
+## I. Overview 
+
+- In the second part of the course we will learn about the MVC design pattern utilizing Express and React, persisting data with MongoDB, and distributing data with Redis
 
 ## II. Software Design Patterns
 
@@ -14,7 +16,9 @@
   - see the accompanying PDF 
 - Assignments:
   - See the HTTP Server Design Study Guide Dropbox (it has you research a JavaScript software design pattern and discuss it)
-  
+
+<hr>
+
 ## III. Databases
   - Database Management Systems (or DBMS) are applications designed for managing and organizing collections of data
   - Traditional systems typically store *records* (i.e. *rows*) of data in *tables*
@@ -39,9 +43,14 @@ let mydoc = {
  
 - Presentations/Resources
   - see "Database Study Guide" dropbox, and "Database Study Guide" PDF in Week-7 content section of myCourses
-  
-## IV. Express
+ 
+<hr>
 
+## IV. MVC with Express
+
+- Demo:
+  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers
+  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers-done
 
  
 
