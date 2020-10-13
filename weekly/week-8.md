@@ -53,12 +53,66 @@ let mydoc = {
   - https://www.npmjs.com/package/express
   - Static file hosting
   - plugins (like `serve-favicon`, `cookie-parser`, `body-parser`, `compression`)
-  
+
+## V. Express Demo
 - Demo Code:
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers-done
-- Walkthough:
 
+Walkthough:
+- look at **package.json**
+  - start file is **app.js**
+  - new app dependencies
+- **client** folder
+  - has static files
+- **src** folder
+  - controllers folder
+  - **app.js**
+  - **router.js**
+- **views** folder
+  - just static HTML today
+- mainly just working with controller code today
+- **controllers/index.js**
+- look at **app.js**
+- Start coding **app.js**:
+  - body-parser is going to handle both GET and POST requests for us
+  
+```js
+app.use(bodyParser.urlencoded({extended:true})); // x-www-form-encoded & value=true&number=10
+
+app.set('view engine','handlerbars');
+app.set('views',`${__dirname}/../views`);
+
+app.use(favicon(`${__dirname}/../client/img/favicon.png`));
+
+app.use(cookieParser());
+
+router(app);
+
+app.listen(port,(err)=>{
+  if(err){
+    throw err;
+  }
+  console.log(`Listening on port ${port}`);
+});
+```
+
+- test it:
+  - `npm i`
+  - `npm run nodemon`
+  - **localhost:3000/**
+  - can't find any pages to serve!
+  - it *can* find **http://localhost:3000/assets/img/internet.png** and **http://localhost:3000/assets/img/favicon.png**
+- The pages we want to serve are being  **controllers/index.js**
+  - need `module.exports`
+- Start coding **router.js**:
+  - this replaces our `switch` statement (or *dispatch table*)
+  - `app.get('/',controllers.index);`
+  - test it
+  - add **page2** & **page3** endpoints
+- Add `notFound` handler
+  - `res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`));`
+  - `app.get('/*',controllers.notFound); // order matters!`
 
  
 
