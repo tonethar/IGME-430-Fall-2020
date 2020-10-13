@@ -52,7 +52,7 @@ let mydoc = {
   - a web framework for Node
   - https://www.npmjs.com/package/express
   - Static file hosting
-  - plugins (like `serve-favicon`, `cookie-parser`, `body-parser`)
+  - plugins (like `serve-favicon`, `cookie-parser`, `body-parser`, `compression`)
   
 - Demo Code:
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers
