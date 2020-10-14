@@ -128,7 +128,27 @@ app.get('/*',controllers.notFound); // order matters!
   - **/page1** links to a **getName/** endpoint - let's get that working
   - add `getName` to **controllers/index.js**
   - here's the code - `res.json({name}); // creates JSON, sends status code, sends content type, sends the JSON!`
-  
+- test the **getName/** endpoint in browser - wow that wasn't much code!
+- now let's hook up a `POST` request to enable a **/setName** endpoint
+- in **controllers/index.js** - create `setName` with this line of code - `console.dir(req.body);`
+- hook up the **/setName** `POST` endpoint in **router.js** 
+- test it from the form on **/page2** (recall that we can't do `POST` requests from the browser's address bar)
+  - for review, let's also test the endpoint log from the Postman app
+- now add the rest of the code:
+
+```js
+// handle the error condition first
+if(!req.body.firstname || !req.body.lastname){
+	return res.status(400).json({error: "firstname and lastname are both required", id:"badRquest"});
+}
+
+// if the required params are present, update `name` and send it back
+name = `${req.body.firstname} ${req.body.lastname}`;
+// return res.status(204).json({name});
+return res.json({name});
+```
+
+- test it from the form on **/page2** and the Postman app  
 
  
 
