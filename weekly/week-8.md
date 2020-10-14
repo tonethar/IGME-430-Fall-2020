@@ -60,7 +60,7 @@ let mydoc = {
     
 <hr>
 
-## V. Express Demo
+## V. Express Controller Demo
 Demo Code:
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers-done
@@ -166,7 +166,10 @@ return res.json({name});
 
 <hr>
  
-## VI. XXX Demo
+## VI. MVC - View Demo
+
+Demo Code:
+ - 
 
 <hr><hr>  
 
