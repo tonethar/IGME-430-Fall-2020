@@ -124,7 +124,10 @@ res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`))
 app.get('/*',controllers.notFound); // order matters!
 ```
  
-- handling parameters
+- handling GET requests
+  - **/page1** links to a **getName/** endpoint - let's get that working
+  - add **getName/** to **controllers/index.js**
+  
 
  
 
