@@ -150,7 +150,9 @@ return res.json({name});
 
 - test it from the form on **/page2** and the Postman app  
 
-**Wrap up**
+<hr>
+
+**Demo Wrap up**
 - in this demo, we primarily focused on the *controller* part of MVC:
   - controllers are responsible for controlling the flow of the application execution
   - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
@@ -162,7 +164,9 @@ return res.json({name});
 - loaded and served up static HTML files with `res.sendFile(...)`
 - handled a `POST` request - `setName` - with 5 lines of code
 
+<hr>
  
+## VI. XXX Demo
 
 <hr><hr>  
 
