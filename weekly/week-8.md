@@ -126,7 +126,8 @@ app.get('/*',controllers.notFound); // order matters!
  
 - handling GET requests
   - **/page1** links to a **getName/** endpoint - let's get that working
-  - add **getName/** to **controllers/index.js**
+  - add `getName` to **controllers/index.js**
+  - here's the code - `res.json({name}); // creates JSON, sends status code, sends content type, sends the JSON!`
   
 
  
