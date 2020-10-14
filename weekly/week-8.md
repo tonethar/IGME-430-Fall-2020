@@ -109,14 +109,14 @@ app.listen(port,(err)=>{
   - **localhost:3000/**
   - can't find any pages to serve!
   - it *can* find **http://localhost:3000/assets/img/internet.png** and **http://localhost:3000/assets/img/favicon.png**
-- The pages we want to serve are being  **controllers/index.js**
-  - need `module.exports`
+- The pages we want to serve are being sent by **controllers/index.js**
+  - We need to add a `module.exports` to it
 - Start coding **router.js**:
   - this replaces our `switch` statement (or *dispatch table*)
   - `app.get('/',controllers.index);`
   - test it
   - add **page2** & **page3** endpoints
-- Add `notFound` handler
+- Add `notFound` handler code to **controllers/index.js** and **router.js**
 
 ```js
 res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`));
@@ -124,6 +124,7 @@ res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`))
 app.get('/*',controllers.notFound); // order matters!
 ```
  
+- handling parameters
 
  
 
