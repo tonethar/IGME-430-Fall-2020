@@ -150,7 +150,12 @@ return res.json({name});
 
 - test it from the form on **/page2** and the Postman app  
 
-**Wrap up - what did express do for us?**
+**Wrap up**
+- in this demo, we primarily focused on the *controller* part of MVC:
+  - controllers are responsible for controlling the flow of the application execution
+  - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+  
+**What did express do for us?**
 - set up a functioning web server with 5 lines of code
 - served up static files (images) with one line of code - `app.use('/assets', ...)`
 - served up a favicon with one line of code - `app.use(favicon(...))`
