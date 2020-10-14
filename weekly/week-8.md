@@ -166,10 +166,10 @@ return res.json({name});
 
 <hr>
  
-## VI. MVC - View Demo
+## VI. MVC - View (Templates) Demo
 
 Demo Code:
- - 
+ - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
 
 <hr><hr>  
 
