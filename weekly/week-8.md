@@ -116,7 +116,7 @@ app.listen(port,(err)=>{
   - `app.get('/',controllers.index);`
   - test it
   - add **page2** & **page3** endpoints
-- Add `notFound` handler code to **controllers/index.js** and **router.js**
+- Add `notFound` handler code to **controllers/index.js** and a `404` route to **router.js**
 
 ```js
 res.status(404).sendFile(path.resolve(`${__dirname}/../../views/notFound.html`));
