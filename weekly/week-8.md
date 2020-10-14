@@ -170,6 +170,7 @@ return res.json({name});
 
 Demo Code:
  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
+ - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates-done
 
 <hr><hr>  
 
