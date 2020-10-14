@@ -166,7 +166,7 @@ return res.json({name});
 
 <hr>
  
-## VI. MVC - View (Templates) Demo
+## VI. MVC - View (Templates with handlebars) Demo
 
 Demo Code:
  - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
