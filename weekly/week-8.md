@@ -61,7 +61,7 @@ let mydoc = {
 <hr>
 
 ## V. Express Demo
-- Demo Code:
+Demo Code:
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers
   - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-views-controllers-done
 
@@ -150,10 +150,17 @@ return res.json({name});
 
 - test it from the form on **/page2** and the Postman app  
 
+**Wrap up - what did express do for us?**
+- set up a functioning web server with 5 lines of code
+- served up static files (images) with one line of code - `app.use('/assets', ...)`
+- served up a favicon with one line of code - `app.use(favicon(...))`
+- loaded and served up static HTML files with `res.sendFile(...)`
+- handled a `POST` request - `setName` - with 5 lines of code
+
  
 
 <hr><hr>  
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-6.md**](week-6.md)  |  [**IGME-430 Home**](../README.md) | [**week-8.md**](week-8.md)
+| [**week-6.md**](week-6.md)  |  [**IGME-430 Home**](../README.md) | **week-9.md**
