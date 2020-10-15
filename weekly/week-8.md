@@ -298,6 +298,12 @@ return res.json({name});
 
 - test the form on **/page2**, **/getName**, and the home page - you should see that `name` is being set
 
+<hr>
+
+## VII. Homework
+
+- Simple Handlebars - https://github.com/tonethar/IGME-430-Spring-2020/blob/master/notes/express-handlebars-demo.md
+- Intro to Mongo Shell -  https://github.com/tonethar/IGME-430-Spring-2020/blob/master/notes/mongo-shell-intro.md
 
 <hr><hr>  
 
