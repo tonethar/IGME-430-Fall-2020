@@ -175,12 +175,15 @@ return res.json({name});
 - Above we covered the controller, today we'll cover the view
 - We'll see how to use the templating language handlebars (very similar to the Vue.js templating system) - https://handlebarsjs.com/
 
+<hr>
 
 ### VI-B. Demo Code
 
 - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates
 - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-templates-done
- 
+
+<hr>
+
 ### VI-C. Look over start code
 
 - check out **package.json** - the only thing that is new from last time is **express-handlebars**
@@ -191,6 +194,8 @@ return res.json({name});
 - **router.js** is the same
 - **controllers/index.js** - we've ripped out all of the implementations - because the code will be different now that we will be using handlebars to render the view pages (rather than being static HTML files like they were last time)
 - the HTML pages in the **views** folder now all have the **.handlebars** extension instead of **.html**
+
+<hr>
 
 ### VI-D. Demo
 - in **app.js** go ahead and import the `express-handlebars` library - `const expressHandlebars = require('express-handlebars');`
@@ -220,6 +225,8 @@ const hostIndex = (req, res) => {
 };
 ```
 
+<hr>
+
 **DISCUSSION**
 - test it in the browser, **/** should load, with "Home" in the title bar
 - "view source" on the browser and you see <title>Home</title> and NOT <title>{{title}}</title>
@@ -229,8 +236,11 @@ const hostIndex = (req, res) => {
   - With Vue.js, the browser does the processing (i.e. processing the template) on the *client-side* (i.e. the browser), meaning
   - if we "View Source" in the browser on a Vue.js page, we WILL see the template
   - if we "Inspect Element" in the browser on a Vue.js page, we will see only the results of the processing (i.e the HTML)
-  
-**DEMO**
+
+<hr>
+
+**CONTINUE DEMO**
+
 - Add some more variables to **index.handlebars**
 
 ```html
@@ -247,6 +257,7 @@ const hostIndex = (req, res) => {
  - what happens if I send "extra" variables along?
 - now get **page2** working - note that there are no directives (i.e. handlebars) on **page2.handlebars** that need to be rendered
 
+<hr>
 
 **MORE DEMO**
 - Get the 404 page working - add the following to **notFound.handlebars** and **controllers/index.js**
@@ -261,10 +272,13 @@ res.status(404).render('notFound',{
 
 - note: to get the image hosting working (we moved the images from where they were last time), head to **app.js** and change `client` to `hosted`
 
+<hr>
+
 **IMPLEMENT `getName`**
 
 - `res.json({name});` // handle GET request
 
+<hr>
 
 **IMPLEMENT `setName`**
 
