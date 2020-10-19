@@ -309,4 +309,4 @@ return res.json({name});
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-6.md**](week-6.md)  |  [**IGME-430 Home**](../README.md) | **week-9.md**
+| [**week-6.md**](week-6.md)  |  [**IGME-430 Home**](../README.md) | [**week-9.md**](week-9.md)
