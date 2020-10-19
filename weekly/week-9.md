@@ -9,7 +9,7 @@
 
 ## II. Walkthrough
 
-## II-A. Look over code
+### II-A. Look over code
 
 **package.json**
 - `mongoose` is new
@@ -24,14 +24,14 @@
 - Models:
   - https://mongoosejs.com/docs/models.html
 
-## II-B. Work on *models/Cat.js*
+### II-B. Work on *models/Cat.js*
 - create cat *schema*
 - create cat *model*
 - export them
 - what's a *schema* again?
 
 
-## II-C. Work on *controllers/index.js*
+### II-C. Work on *controllers/index.js*
 
 - "cat" info has already been imported
 - `const Cat = models.Cat.CatModel;`
