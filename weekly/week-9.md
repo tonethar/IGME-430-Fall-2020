@@ -6,6 +6,8 @@
   - https://github.com/IGM-RichMedia-at-RIT/Simple-MVC-Example
   - be sure to FORK it, and then CLONE it to your dekstop - `git clone <url>`
 - The complete video of this demo is here - https://www.youtube.com/watch?v=2DgCCVpRRbM
+- The "running on heroku" version is here - https://simple-mvc-example-done-2201.herokuapp.com/
+- The completed demo code (which is the start file for the Homework - "Simple Models Exercise" is here - https://github.com/IGM-RichMedia-at-RIT/simple-mvc-example-done
 
 ## II. Walkthrough
 
