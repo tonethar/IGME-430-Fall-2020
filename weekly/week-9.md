@@ -85,7 +85,7 @@ module.exports = { CatModel, CatSchema };
 - define a default Cat:
   
 ```js
-let lastAdded = new Cat(defaultData); // creating a // this creates a Mongoose object
+let lastAdded = new Cat(defaultData); // creating a Cat - this creates a Mongoose object
 console.dir(lastAdded);
 ```
 
