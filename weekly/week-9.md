@@ -80,19 +80,30 @@ module.exports = { CatModel, CatSchema };
 ### II-C. Work on *controllers/index.js*
 
 - "cat" info has already been imported
-- `const Cat = models.Cat.CatModel;`
 - look over what the functions do
-- define a default Cat:
-  
+
+
+#### II-C-i. Create our first `Cat` model
+
+- handy shortcut to `Cat`
+
+```js
+const Cat = models.Cat.CatModel;`
+```
+
+- Make default `Cat` model instance
+
 ```js
 let lastAdded = new Cat(defaultData); // creating a Cat - this creates a Mongoose object
 console.dir(lastAdded);
 ```
 
-- createdDate will be populated when we actually put it in the DB
-- note `_id` - which is a *guid*  - a unique identifier for the document
+- `createdDate` will be populated when we actually put it in the DB
+- note `_id` - which is a [*guid*](https://en.wikipedia.org/wiki/Universally_unique_identifier)  - a unique identifier for the document
 
-## Implement **/** & **/getName**
+### II-D. Head to *controllers/index.js*
+
+#### II-D-i. Complete */* & */getName* endpoints
 
 ```js
 const hostIndex = (req, res) => {
@@ -115,7 +126,7 @@ const getName = (req, res) => {
 
 - go test these in the server
 
-## Implement `readAllCats()`
+#### II-D-ii. Implement `readAllCats()`
 
 ```js
 const readAllCats = (req, res, callback) => {
@@ -128,7 +139,7 @@ const readAllCats = (req, res, callback) => {
 };
 ```
 
-## Implement `readCat()`
+#### II-D-ii. `readCat()`
 
 - this returns a single cat of a particular name
 
@@ -149,9 +160,8 @@ const readCat = (req, res) => {
 };
 ```
 
-## Look at  **views/page1.handlebars**
+### II-E. Implement `hostPage1()`
 
-## Implement `hostPage1()`
 - this uses **page1.handlebars** - it is going to display all of the cat objects
 - it uses `readAllCats()`
 
@@ -171,16 +181,16 @@ const hostPage1 = (req, res) => {
 };
 ```
 
-## Test **/page1**
+### II-F. Test **/page1**
 - Head to the command line and insert a Cat into the Cat collection
-- Head to **/page1**
+- Head to **/page1** to see the cat, and to **/** to see last added
 
 ```js
 db.cats.insert({name: "Kitty",bedsOwned: 10, createdDate: Date()})
 ```
 
 
-## Implement `setName()`
+### II-G. Implement `setName()`
 
 ```js
 const setName = (req, res) => {
