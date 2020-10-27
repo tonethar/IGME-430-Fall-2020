@@ -3,10 +3,13 @@
 ## I. Overview 
 
 - React MVC Project Overview
-  - Project 2 Link
-  - Discussion
-  - Video Link
-  - Link to DomoMaker
+  - [Project 2 - Product/Service Site - React](https://people.rit.edu/arwigm/430/)
+  - Videos:
+    - [Rich Media 2 - Week 12.1 - React MVC Project Overview](https://www.youtube.com/watch?v=Kl1II4VpgOE)
+    - [Rich Media 2 - Week 11.1 - React FSCs](https://www.youtube.com/watch?v=kAMb0sEp9js) - *Functional Stateless Components*
+    - [Rich Media 2 - Week 11.2 - React Class Components](https://www.youtube.com/watch?v=EzgxSVN-AzI)
+  - DomoMakers (see myCourses for PDFs and due dates):
+    - [DomoMaker A Done](https://domomaker-a-2201.herokuapp.com)
 
 ## II. DomoMaker A - Assignment Walkthrough
 
