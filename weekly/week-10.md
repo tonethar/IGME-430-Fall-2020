@@ -10,10 +10,21 @@
 
 ## II. DomoMaker A - Assignment Walkthrough
 
-- password encryption:
-  - clear text
-  - encryption
-  - salt
+- Note: the **client.js** code is all [jQuery](https://jquery.com/) - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
+- Create an account with **signup.handlebars**
+  - `<input id="pass" type="password" name="pass" placeholder="password"/>`
+  - note that the `type` is `"password"`
+  - password encryption:
+    - clear text
+    - encryption
+      - https://blueimp.github.io/JavaScript-MD5/
+      - https://md5calc.com/hash/md5/12345678
+    - rainbow tables:
+      - https://www.geeksforgeeks.org/understanding-rainbow-table-attack/
+      - https://en.wikipedia.org/wiki/Rainbow_table
+    - salt
+      - https://security.stackexchange.com/questions/17421/how-to-store-salt
+      - https://security.stackexchange.com/questions/100898/why-store-a-salt-along-side-the-hashed-password
 
 
 ## III. DomoMaker B - Assignment Walkthrough
