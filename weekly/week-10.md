@@ -66,7 +66,7 @@
 
 ## III. DomoMaker B - Assignment Walkthrough
 
-- sessions
+- HTTP sessions
 
 
 
