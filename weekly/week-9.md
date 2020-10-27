@@ -293,4 +293,4 @@ const updateLast = (req, res) => {
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**week-8.md**](week-8.md)  |  [**IGME-430 Home**](../README.md) | **week-10.md**(week-10.md)
+| [**week-8.md**](week-8.md)  |  [**IGME-430 Home**](../README.md) | [**week-10.md**](week-10.md)
