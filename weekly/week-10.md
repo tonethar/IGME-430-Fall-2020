@@ -23,7 +23,7 @@
   - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
 - Create a user account with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
-  - note that the `type` is `"password"`
+  - note that the `type` is [`"password"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
   - **models/Account.js** is a mongoose model for the user's account
     - properties are `username`,`salt`,`password` (encrypted), `createdDate`
     - we encrypt the typed in password with node's built-in **crypto** library:
