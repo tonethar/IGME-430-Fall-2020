@@ -58,6 +58,7 @@
         - `db.accounts.remove({})` // delete all documents in the accounts collection
 - Login to an existing account with **login.handlebars**
 
+<hr>
 
 ## III. DomoMaker B - Assignment Walkthrough
 
