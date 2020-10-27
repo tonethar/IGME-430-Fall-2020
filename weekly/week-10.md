@@ -10,6 +10,10 @@
 
 ## II. DomoMaker A - Assignment Walkthrough
 
+- The architecture of this app is very similar to the *Simple Models* HW
+  - **app.js** to load the dependencies and start up the express server
+  - **router.js** to call the various routes with code defined in the **controllers/** folder
+  - a **models/** folder that contains mongoose models (one per file) such as **Account**
 - Note: the **client.js** code is all [jQuery](https://jquery.com/) - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
 - Create an account with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
@@ -31,6 +35,9 @@
     - salt
       - https://security.stackexchange.com/questions/17421/how-to-store-salt
       - https://security.stackexchange.com/questions/100898/why-store-a-salt-along-side-the-hashed-password
+  - Mongo database
+    - you will be able to see the mongo collections and documents created by **models/Account.js**
+    - locally you will probably be using `mongod`
 
 
 ## III. DomoMaker B - Assignment Walkthrough
