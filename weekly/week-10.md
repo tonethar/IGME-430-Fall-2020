@@ -68,6 +68,7 @@
 ## III. DomoMaker B - Assignment Walkthrough
 
 - HTTP sessions
+- `const session = require('express-session');`
 - https://www.npmjs.com/package/express-session
 
 
