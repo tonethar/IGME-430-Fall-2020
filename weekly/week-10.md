@@ -17,11 +17,11 @@
   - **app.js** to load the app dependencies and start up the [express](https://www.npmjs.com/package/express) server
   - **router.js** to call the various routes with code defined in the **controllers/** folder
   - a **views/** folder containing handlebars templates of the site's three pages (**app**, **signup**, **login**)
-  - a **models/** folder that contains mongoose models (one per file) such as **Account**
+  - a **models/** folder that contains mongoose models (one per file) such as **Account** and (coming soon!) **Domo**
 - Note: the **client.js** code is all [jQuery](https://jquery.com/):
   - why? `jQuery.animate()` I guess ...
   - here's a nice overview - [jQuery Fundamentals - jquery Basics](http://jqfundamentals.com/chapter/jquery-basics)
-- Create a user account with **signup.handlebars**
+- Create a user account (name and password) with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
   - note that the `type` is [`"password"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
   - **models/Account.js** is a mongoose model for the user's account
