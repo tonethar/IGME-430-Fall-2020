@@ -67,6 +67,7 @@
 ## III. DomoMaker B - Assignment Walkthrough
 
 - HTTP sessions
+- https://www.npmjs.com/package/express-session
 
 
 
