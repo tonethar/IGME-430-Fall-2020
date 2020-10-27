@@ -14,6 +14,12 @@
 - Create an account with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
   - note that the `type` is `"password"`
+  - `models/Account.js` is a mongoose model for the user's account
+    - properties are `username`,`salt`,`password` (encrypted), `createdDate`
+    - we encrypt the typed in password with node's built-in **crypto** library:
+      - https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback
+      - https://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback
+  - `controllers/Account.js` uses `signup()` to call `AccountModel.generateHash()` and generate an encrypted password
   - password encryption:
     - clear text
     - encryption
