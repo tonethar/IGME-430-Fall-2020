@@ -19,6 +19,7 @@
   - **router.js** calls the various routes with code defined in the **controllers/** folder
   - a **views/** folder contains [handlebars](https://handlebarsjs.com/) templates of the site's three pages (**app**, **signup**, **login**)
   - a **models/** folder that contains [mongoose](https://www.npmjs.com/package/mongoose) models (one per file) such as `Account` and (coming soon!) `Domo`
+    - we add "class" methods to these models with the `statics` property
   - MVC in action:
     - note that when a user comes to the site, the router tells a ***controller*** to render the proper ***view***
     - when the user interacts with a ***view*** (for example signing up for a new account and clicking the Submit button), a message (endpoint) is routed back to the relevant ***controller***
