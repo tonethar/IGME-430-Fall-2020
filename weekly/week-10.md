@@ -50,6 +50,7 @@
     - salt
       - https://security.stackexchange.com/questions/17421/how-to-store-salt
       - https://security.stackexchange.com/questions/100898/why-store-a-salt-along-side-the-hashed-password
+      - https://security.stackexchange.com/questions/211/how-to-securely-hash-passwords
   - Mongo database
     - locally you will be using `mongod` (probably), and on Heroku you will be using your MongoDB cloud account
     - you will be able to see the following in a mongo client (`mongo` in Terminal/Powershell or the **MongoDB Compass** app):
