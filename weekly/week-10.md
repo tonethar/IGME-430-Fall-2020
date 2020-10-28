@@ -74,6 +74,7 @@
 - https://www.npmjs.com/package/express-session
 - `AccountSchema.statics.toAPI`
 - `req.session` - To store or access session data, simply use the request property req.session, which is (generally) serialized as JSON by the store, so nested objects are typically fine.
+- https://www.npmjs.com/package/underscore
 
 
 
