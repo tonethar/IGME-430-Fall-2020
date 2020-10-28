@@ -76,6 +76,7 @@
 - `req.session` - To store or access session data, simply use the request property req.session, which is (generally) serialized as JSON by the store, so nested objects are typically fine.
 - https://www.npmjs.com/package/underscore
 - https://mongoosejs.com/docs/schematypes.html#objectids
+- `return DomoModel.find(search).select('name age').lean().exec(callback);`
 
 
 
