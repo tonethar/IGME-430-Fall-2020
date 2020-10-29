@@ -72,19 +72,21 @@
 1) DomoMaker-B:
   - See myCourses for PDF and dropbox/due date
   - See ***tonys_class*** channel in Discord - there I noted 4 DomoMaker-B PDF typos
-  - now you can add Domos to the database, "owned" and only visible to the current logged in user
-  - working version here: https://domomaker-b-2201.herokuapp.com/maker
-  - handy mongo commands you can use while you are debugging & testing:
-    - `show dbs`
-    - `use DomoMaker`
-    - `show collections`
-    - `db.accounts.find().pretty()` // show all documents in the accounts collection
-    - `db.accounts.remove({})` // delete all documents in the accounts collection
-    - `db.domos.find().pretty()` // show all documents in the domos collection
-    - `db.domos.remove({})` // delete all documents in the domos collection
-- you also might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
-  - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
-  - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
+  - What's new:
+    - HTTP Sessions keep track of who is logged in
+    - you can now add Domos to the database, "owned" and only visible to the current logged in user
+    - working version here: https://domomaker-b-2201.herokuapp.com/maker
+    - handy mongo commands you can use while you are debugging & testing:
+      - `show dbs`
+      - `use DomoMaker`
+      - `show collections`
+      - `db.accounts.find().pretty()` // show all documents in the accounts collection
+      - `db.accounts.remove({})` // delete all documents in the accounts collection
+      - `db.domos.find().pretty()` // show all documents in the domos collection
+      - `db.domos.remove({})` // delete all documents in the domos collection
+    - you also might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
+      - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
+      - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
 
 
 2) HTTP sessions
