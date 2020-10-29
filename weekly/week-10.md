@@ -82,7 +82,7 @@
     - `db.accounts.remove({})` // delete all documents in the accounts collection
     - `db.domos.find().pretty()` // show all documents in the domos collection
     - `db.domos.remove({})` // delete all documents in the domos collection
-- you might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
+- you also might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
   - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
   - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
 
