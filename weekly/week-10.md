@@ -89,6 +89,7 @@
       - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
       - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
 
+<hr>
 
 2) HTTP sessions
 
