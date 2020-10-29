@@ -94,20 +94,22 @@
 2) HTTP sessions
 
 - HTTP sessions store *per-user* data on the server, and keep the "key" to that data stored in the user's browser, as a cookie
+- https://stackoverflow.com/questions/3804209/what-are-sessions-how-do-they-work
 
 A) Demo
   - https://github.com/tonethar/session-demo-2201
   - https://session-demo-2201.herokuapp.com/
-
-
+  
 B) Documentation
-  - `const session = require('express-session');`
-  - https://www.npmjs.com/package/express-session
-  - `AccountSchema.statics.toAPI`
-  - `req.session` - To store or access session data, simply use the request property `req.session`, which is (generally) serialized as JSON by the store, so nested objects are typically fine.
-  - https://www.npmjs.com/package/underscore
-  - https://mongoosejs.com/docs/schematypes.html#objectids
-  - `return DomoModel.find(search).select('name age').lean().exec(callback);`
+ - **express-session**
+   - https://www.npmjs.com/package/express-session
+   - `const session = require('express-session');`
+   - `req.session` - To store or access session data, simply use the request property `req.session`, which is (generally) serialized as JSON by the store, so nested objects are typically fine.
+ - **mongoose**
+    - https://mongoosejs.com/docs/schematypes.html#objectids
+     - `return DomoModel.find(search).select('name age').lean().exec(callback);`
+ - **underscore**
+   - https://www.npmjs.com/package/underscore
 
 
 
