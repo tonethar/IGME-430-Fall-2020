@@ -73,7 +73,7 @@
   - See myCourses for PDF and dropbox/due date
   - See ***tonys_class*** channel in Discord - there I noted 4 DomoMaker-B PDF typos
   - What's new:
-    - HTTP Sessions keep track of who is logged in
+    - HTTP *sessions* keep track of who is logged in
     - you can now add Domos to the database, "owned" and only visible to the current logged in user
     - working version here: https://domomaker-b-2201.herokuapp.com/maker
     - handy mongo commands you can use while you are debugging & testing:
