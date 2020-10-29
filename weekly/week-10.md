@@ -91,6 +91,15 @@
 
 
 2) HTTP sessions
+
+- HTTP sessions store *per-user* data on the server, and keep the "key" to that data stored in the user's browser, as a cookie
+
+A) Demo
+- https://github.com/tonethar/session-demo-2201
+- https://session-demo-2201.herokuapp.com/
+
+
+B) Documenations)
 - `const session = require('express-session');`
 - https://www.npmjs.com/package/express-session
 - `AccountSchema.statics.toAPI`
