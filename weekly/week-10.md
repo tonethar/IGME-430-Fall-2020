@@ -76,7 +76,7 @@
   - What's new:
     - HTTP *sessions* keep track of who is logged in
     - you can now add Domos to the database, "owned" and only visible to the current logged in user
-    - multiple domos can have the *same name*
+    - multiple domos can have the *same name* (unlike the HW where according to the schema, the `Cat` documents have to have `unique` names
     - working version here: https://domomaker-b-2201.herokuapp.com/
     - handy mongo commands you can use while you are debugging & testing:
       - `show dbs`
