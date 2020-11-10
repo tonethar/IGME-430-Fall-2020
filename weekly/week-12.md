@@ -1,15 +1,15 @@
 # Week-12 (11/10/20 & 11/12/20)
 
-# React FSCs & React Class Components
+## React FSCs & React Class Components
 
-## I. React FSCs & React Class Components
+### I. React FSCs & React Class Components
 
-### I-A. FSC (Functional Stateless Components) Overview
+#### I-A. FSC (Functional Stateless Components) Overview
 - https://reactjs.org/
 - Can make single page apps where the content on the page can refresh without the page having to load\
 - Unlike handlebars, the rendering is happening on the client-side (although React can also do server-side rendering)
 
-### I-B. About Demos
+#### I-B. About Demos
 - start code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs
 - **package.json** has multiple build scripts for each example
 - look at **example1.handlebars** - it is importing the needed client-side libs for React
@@ -19,7 +19,7 @@
 - Very simple to setup and use, actually
 - JSX is a syntax for creating your own HTML tags
  
-### I-C. Example 1 - a no parameter function
+#### I-C. Example 1 - a no parameter function
 
 ```js
  // React components need to be capitalized
@@ -53,7 +53,7 @@ window.onload = init;
 - React is running on the client-side, and updating the UI dynamically
 
 
-### I-D. Example 2 - a FSC that takes an argument
+#### I-D. Example 2 - a FSC that takes an argument
 
 ```js
 // Note that React events (like `onChange` below) are camel-cased
@@ -94,7 +94,7 @@ window.onload = init;
 
 
 
-### I-E. Example 3 - a FSC that hits up the server for data
+#### I-E. Example 3 - a FSC that hits up the server for data
 
 ```js
 const SongContainer = (props) => {
@@ -174,23 +174,16 @@ const loadSongsFromServer = () => {
 ```
 - and call it from `init()`
 
-##II. React Class components 
+### II. React Class components 
 
 - React Class components are in an older syntax, and they can contain *state* information about a Component
 - (*BTW - React hooks are newer, and allow you to add *state* to a FSC - https://reactjs.org/docs/hooks-intro.html*)
-
-
-
-# React Class Components
-
 - keep track of state
-- classes have their own `render()` method
-
-This Demo is exactly the same as the last one
-- https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
+- these classes have their own `render()` method
+- Start code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
 
 
-## Example 1 - a no parameter function
+#### II-A. Example 1 - a no parameter function
 
 ```js
 class HelloWorld extends React.Component{
@@ -219,16 +212,17 @@ window.onload = init;
 
 
 
-## Example 2 - a Class Component that takes an argument
+#### II-B. Example 2 - a Class Component that takes an argument
 
 - this is done though the constructor
 - now the component will hang onto the state
 - let's walk though this one together
-- reference:
-  - 
+- Reference:
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+  - https://medium.com/front-end-weekly/do-i-still-need-to-bind-react-functions-in-2019-6d0fe72f40d7
 
 
-## Example 3 - a Class Component that hits up the server for data
+#### II-C. Example 3 - a Class Component that hits up the server for data
 
 - the whole point of these frameworks is to offload work from the server
   - handlebars is a server-side technology that does all of the work - if even a small piece of information on a page changes - a stock price for example - the whole page needs to re-render
