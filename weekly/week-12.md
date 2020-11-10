@@ -178,6 +178,8 @@ const loadSongsFromServer = () => {
 ```
 - and call it from `init()`
 
+<hr>  
+
 ### II. React Class components 
 
 - React Class components are in an older syntax, and they can contain *state* information about a Component
