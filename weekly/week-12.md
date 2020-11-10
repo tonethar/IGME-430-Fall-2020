@@ -21,6 +21,8 @@
  
 #### I-C. Example 1 - a no parameter function
 
+**client/example1.js**
+
 ```js
  // React components need to be capitalized
  // always need some "root" HTML that wraps all the other HTML
@@ -54,6 +56,8 @@ window.onload = init;
 
 
 #### I-D. Example 2 - a FSC that takes an argument
+
+**client/example2.jsx**
 
 ```js
 // Note that React events (like `onChange` below) are camel-cased
@@ -95,6 +99,8 @@ window.onload = init;
 
 
 #### I-E. Example 3 - a FSC that hits up the server for data
+
+**client/example3.jsx**
 
 ```js
 const SongContainer = (props) => {
@@ -150,8 +156,6 @@ const getSongs = (req,res) => {
 
 - export it, and then add a route for **/getSongs** to **router.js**
 - test **getSongs** endpoint
-
-
 - back in **example3.jsx** implement `loadSongsFromServer();`
 
 ```js
