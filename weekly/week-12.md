@@ -1,23 +1,26 @@
 # Week-12 (11/10/20 & 11/12/20)
 
-## I. Overview 
-# React FSCs
+# React FSCs & React Class Components
 
-## Overview
+## I. React FSCs & React Class Components
+
+### I-A. FSC (Functional Stateless Components) Overview
 - https://reactjs.org/
 - Can make single page apps where the content on the page can refresh without the page having to load\
 - Unlike handlebars, the rendering is happening on the client-side (although React can also do server-side rendering)
-- Demo - code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs
-- package.json has multiple build scripts for each example
-- look at **example1.handlebars** - it is importing the needed client libs for React
-- client folder is where we'll write the code
-- Demo #1
- - Functional Stateless Component
- - A functional component is a JavaScript function that returns JSX ("JavaScript XML")
- - Very simple to setup and use, actually
- - JSX is a syntax for creating your own HTML tags
+
+### I-B. About Demos
+- start code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs
+- **package.json** has multiple build scripts for each example
+- look at **example1.handlebars** - it is importing the needed client-side libs for React
+- **client folder** is where we'll write most of the the code
+- Functional Stateless Component
+- A functional component is a JavaScript *function* (not a surprise!) that returns [JSX ("JavaScript XML")](https://reactjs.org/docs/introducing-jsx.html)
+- Very simple to setup and use, actually
+- JSX is a syntax for creating your own HTML tags
  
-## Example 1 - a no parameter function
+### I-C. Example 1 - a no parameter function
+
 ```js
  // React components need to be capitalized
  // always need some "root" HTML that wraps all the other HTML
@@ -29,8 +32,10 @@ const HelloWorld = () => {
   );
 };
 ```
- - change file extensions to .jsx
+ 
+- change file extensions to **.jsx**
 
+```js
 // ReactDOM is imported by the client (example1.handlebars)
 // render out the JSX tag <HelloWorld />, and put it in the #app div
 const init = () => {
@@ -38,6 +43,7 @@ const init = () => {
 };
 
 window.onload = init;
+```
 
 - run the build script - `npm run buildExample1`
 - look at **hosted/exampleBundle1.js** to see the transpiled code
@@ -47,7 +53,7 @@ window.onload = init;
 - React is running on the client-side, and updating the UI dynamically
 
 
-## Example 2 - a FSC that takes an argument
+### I-D. Example 2 - a FSC that takes an argument
 
 ```js
 // Note that React events (like `onChange` below) are camel-cased
@@ -88,7 +94,7 @@ window.onload = init;
 
 
 
-## Example 3 - a FSC that hits up the server for data
+### I-E. Example 3 - a FSC that hits up the server for data
 
 ```js
 const SongContainer = (props) => {
@@ -168,9 +174,10 @@ const loadSongsFromServer = () => {
 ```
 - and call it from `init()`
 
+##II. React Class components 
 
-React class components are an older syntax, and they can contain *state* information about a Component
-React hooks are new, and allow you to add *state* to a FSC
+- React Class components are in an older syntax, and they can contain *state* information about a Component
+- (*BTW - React hooks are newer, and allow you to add *state* to a FSC - https://reactjs.org/docs/hooks-intro.html*)
 
 
 
