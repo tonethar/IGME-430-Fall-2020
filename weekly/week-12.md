@@ -191,7 +191,7 @@ const loadSongsFromServer = () => {
 
 #### II-A. Example 1 - a no parameter function
 
-```js
+```jsx
 class HelloWorld extends React.Component{
   render(){
     return (
