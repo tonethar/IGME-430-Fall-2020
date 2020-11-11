@@ -222,6 +222,7 @@ window.onload = init;
 
 - this is done though the constructor
 - now the component will hang onto the state
+- https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props
 - let's walk though this one together
 - Reference:
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind
