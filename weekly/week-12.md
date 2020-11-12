@@ -244,7 +244,7 @@ window.onload = init;
 
 <hr>
 
-### II. React Function components (with hooks)
+### III. React Function components (with hooks)
 
 - start code is the `create-react-app` script:
   - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
