@@ -245,13 +245,13 @@ window.onload = init;
 <hr>
 
 ### III. React Function components (with hooks)
-
+- docs on hooks are here:
+  - https://reactjs.org/docs/hooks-intro.html
 - start code is the `create-react-app` script:
   - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
   - running version on Heroku: https://gif-finder-2201.herokuapp.com
   - https://www.fastcompany.com/90505929/the-real-reason-facebook-bought-giphy-for-400-million
-  
-- here's a XHR helper function that will save you a lot of typing:
+- here's an XHR helper function that will save you a lot of typing:
 
 ```js
  // Helper function to fetch data from Giphy
