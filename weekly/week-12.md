@@ -11,6 +11,8 @@
 
 #### I-B. About Demos
 - start code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs
+- done code at: https://github.com/IGM-RichMedia-at-RIT/React-FSCs-Done
+- video for demo is here: https://www.youtube.com/watch?v=kAMb0sEp9js&feature=emb_logo
 - **package.json** has multiple build scripts for each example
 - look at **example1.handlebars** - it is importing the needed client-side libs for React
 - **client folder** is where we'll write most of the the code
@@ -186,7 +188,9 @@ const loadSongsFromServer = () => {
 - (*BTW - React hooks are newer, and allow you to add *state* to a FSC - https://reactjs.org/docs/hooks-intro.html*)
 - keep track of state
 - these classes have their own `render()` method
-- Start code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
+- start code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
+- done code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components-Done
+- video for demo is here: https://www.youtube.com/watch?v=EzgxSVN-AzI&feature=emb_logo
 
 
 #### II-A. Example 1 - a no parameter function
@@ -238,7 +242,9 @@ window.onload = init;
     - thus the server doesn't have to do as much work, and not as much bandwidth needs to be used because only small bits of information (like a stock price) are sent back and forth (as opposed to the whole page)
     
 
+<hr>
 
+### II. React Function components (with hooks)
 
 
 
