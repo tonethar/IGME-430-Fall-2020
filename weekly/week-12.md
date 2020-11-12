@@ -185,7 +185,6 @@ const loadSongsFromServer = () => {
 ### II. React Class components 
 
 - React Class components are in an older syntax, and they can contain *state* information about a Component
-- (*BTW - React hooks are newer, and allow you to add *state* to a FSC - https://reactjs.org/docs/hooks-intro.html*)
 - keep track of state
 - these classes have their own `render()` method
 - start code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
@@ -246,6 +245,7 @@ window.onload = init;
 
 ### III. React Function components (with hooks)
 - docs on hooks are here:
+  - React hooks are newer, and allow you to add *state* to a FSC - so now we can just call them "Function Conponents*
   - https://reactjs.org/docs/hooks-intro.html
 - start code is the `create-react-app` script:
   - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
