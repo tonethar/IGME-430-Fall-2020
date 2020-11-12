@@ -245,7 +245,9 @@ window.onload = init;
 
 ### III. React Function components (with hooks)
 - docs on hooks are here:
-  - React hooks are newer, and allow you to add *state* to a FSC - so now we can just call them "Function Conponents*
+  - React *hooks* are newer, and allow you to add *state* to a FSC - so now we can just call them *Function Components*:
+    - *state hooks* - creates a getter and setter for a state variable.  Changing this variable will trigger a re-render of any part of the component that depends on the variable (a *binding*)
+    - *effect hooks* - used in conjunction with *state hooks*, and lets you notify other parts of your program that a variable value has changed
   - https://reactjs.org/docs/hooks-intro.html
 - start code is the `create-react-app` script:
   - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
