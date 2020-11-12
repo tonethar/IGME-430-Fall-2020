@@ -185,7 +185,7 @@ const loadSongsFromServer = () => {
 ### II. React Class components 
 
 - React Class components are in an older syntax, and they can contain *state* information about a Component
-- keep track of state
+- they keep track of *state* (e.g. variable values) and then re-render themselves when the state changes
 - these classes have their own `render()` method
 - start code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components
 - done code: https://github.com/IGM-RichMedia-at-RIT/React-Class-Components-Done
