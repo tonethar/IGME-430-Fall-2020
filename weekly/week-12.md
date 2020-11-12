@@ -226,6 +226,7 @@ window.onload = init;
 - when we create a class component - ex `<HelloUser username='Ace Coder' />` - the class constructor for `HelloUser` is called
 - now the component will hang onto the state
 - when `setState()` is called, the component will re-render automatically
+- so we only have to explicitly call `ReactDOM.render()` once! React will call it automagically for us every time a *state* value changes
 - https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props
 - let's walk though this one together
 - Reference:
