@@ -223,7 +223,7 @@ window.onload = init;
 
 #### II-B. Example 2 - a Class Component that takes an argument
 
-- this is done though the constructor
+- when we create a class component - ex `<HelloUser username='Ace Coder' />` - the class constructor for `HelloUser` is called
 - now the component will hang onto the state
 - https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props
 - let's walk though this one together
