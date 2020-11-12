@@ -246,7 +246,39 @@ window.onload = init;
 
 ### II. React Function components (with hooks)
 
+- start code is the `create-react-app` script:
+  - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+  
+- here's a XHR helper function that will save you a lot of typing:
 
+```js
+ // Helper function to fetch data from Giphy
+  const fetchData = ()=>{
+    const GIPHY_URL = "https://api.giphy.com/v1/gifs/search";
+    const GIPHY_KEY = "dc6zaTOxFJmzC"; // public API key from here: https://github.com/Giphy/GiphyAPI
+   
+    term = encodeURIComponent(term.trim());
+		if(term.length < 2) return;
+    
+    let url = `${GIPHY_URL}?api_key=${GIPHY_KEY}&q=${term}`;
+
+    const xhr = new XMLHttpRequest();
+
+    xhr.onerror = (e) => console.log("XHR error");
+
+    xhr.onload = (e) => {
+      const jsonString = e.target.response;
+      const json = JSON.parse(jsonString);
+    
+     // TODO
+    // update `results` array an the UI
+     
+    }; // end xhr.onload
+    
+    xhr.open("GET",url);
+    xhr.send();
+  };
+```
 
 <hr><hr>  
 
