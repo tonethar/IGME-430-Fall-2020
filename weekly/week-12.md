@@ -17,9 +17,10 @@
 - look at **example1.handlebars** - it is importing the needed client-side libs for React
 - **client folder** is where we'll write most of the the code
 - Functional Stateless Component
-- A functional component is a JavaScript *function* (not a surprise!) that returns [JSX ("JavaScript XML")](https://reactjs.org/docs/introducing-jsx.html)
-- Very simple to setup and use, actually
-- JSX is a syntax for creating your own HTML tags
+  - the job of any component is to return some HTML that will be rendered to the screen
+  - a functional component is a JavaScript *function* (not a surprise!) that returns [JSX ("JavaScript XML")](https://reactjs.org/docs/introducing-jsx.html)
+  - very simple to setup and use, actually
+  - JSX is a syntax for creating your own HTML tags
  
 #### I-C. Example 1 - a no parameter function
 
